@@ -1,0 +1,5 @@
+Button button = new Button();
+※this.button1 = new System.Windows.Forms.Button();
+上記のように全てのコントロールは、1つのインスタンス
+
+細かい仕組みは、Form.DesignersのInitializeComponentを見ればわかる

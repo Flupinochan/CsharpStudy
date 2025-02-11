@@ -1,0 +1,64 @@
+using System;
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace PasswordManagement.CustomControl
+{
+    public partial class CheckBoxCustomControl : CheckBox
+    {
+        private bool previousCheckedStatus = false; // 状態を保持
+
+        public CheckBoxCustomControl()
+        {
+            InitializeComponent();
+            previousCheckedStatus = this.Checked;
+        }
+
+        protected override void OnPaint(PaintEventArgs pe)
+        {
+            // 現在の状態に基づいてアイコンを取得
+            Icon icon = Checked ? Properties.Resources.ToggleOn : Properties.Resources.ToggleOff;
+
+            // テキストの幅を計算
+            SizeF textSize = pe.Graphics.MeasureString(this.Text, this.Font);
+            int textWidth = (int)textSize.Width;
+            int textHeight = (int)textSize.Height;
+
+            // コントロールの幅をアイコンとテキストの合計幅に設定
+            int controlWidth = icon.Width + textWidth + 10;
+            int controlHeight = Math.Max(icon.Height, textHeight);
+
+            this.Size = new Size(controlWidth, controlHeight);
+
+            // 背景色で塗りつぶし
+            using (SolidBrush solidBrush = new SolidBrush(BackColor))
+            {
+                pe.Graphics.FillRectangle(solidBrush, 0, 0, this.Width, this.Height);
+            }
+
+            // アイコンを中央に配置
+            int iconX = 0;
+            int iconY = (this.Height - icon.Height) / 2;
+            pe.Graphics.DrawIcon(icon, iconX, iconY);
+
+            // テキストをアイコンの右側に描画
+            using (Brush textBrush = new SolidBrush(Color.Black))
+            {
+                int textX = icon.Width + 5; // アイコンの右側に描画（余白5px）
+                int textY = (this.Height - textHeight) / 2;
+
+                pe.Graphics.DrawString(this.Text, this.Font, textBrush, textX, textY);
+            }
+        }
+
+        protected override void OnCheckedChanged(EventArgs e)
+        {
+            // チェック状態が変更された場合のみ再描画
+            if (this.Checked != previousCheckedStatus)
+            {
+                previousCheckedStatus = this.Checked;
+                this.Invalidate(); // 状態変更時のみ再描画
+            }
+        }
+    }
+}

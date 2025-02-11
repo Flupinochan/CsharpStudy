@@ -1,0 +1,10 @@
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\bin\Debug\Memo.exe.config
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\bin\Debug\Memo.exe
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\bin\Debug\Memo.pdb
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.csproj.AssemblyReference.cache
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.Form1.resources
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.Properties.Resources.resources
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.csproj.GenerateResource.cache
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.csproj.CoreCompileInputs.cache
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.exe
+C:\Users\川越　鉄郎\Desktop\C#\Memo\Memo\obj\Debug\Memo.pdb

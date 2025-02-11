@@ -1,0 +1,10 @@
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\bin\Debug\Email.exe.config
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\bin\Debug\Email.exe
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\bin\Debug\Email.pdb
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.csproj.AssemblyReference.cache
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.Form1.resources
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.Properties.Resources.resources
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.csproj.GenerateResource.cache
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.csproj.CoreCompileInputs.cache
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.exe
+C:\Users\川越　鉄郎\Desktop\C#\Email\Email\obj\Debug\Email.pdb

@@ -1,0 +1,10 @@
+<ArrayOfPasswordInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PasswordInfo>
+    <Category>Amazon</Category>
+    <ItemName>test1</ItemName>
+    <LoginId>test3</LoginId>
+    <Email>test2</Email>
+    <Password>test4</Password>
+    <Other>test54</Other>
+  </PasswordInfo>
+</ArrayOfPasswordInfo>

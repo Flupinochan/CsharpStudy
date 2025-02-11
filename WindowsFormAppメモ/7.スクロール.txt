@@ -1,0 +1,2 @@
+プロパティ: ScrillBarsで有効化
+WordWrap: Falseで横スクロールバーも表示される(自動文字折り返し設定)

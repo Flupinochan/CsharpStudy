@@ -1,0 +1,3 @@
+ReadOnlyをTrue
+BorderStyleをNone
+にすると、枠線が消えて入力できないただの文字列になり、labelのようになる
