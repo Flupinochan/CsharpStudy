@@ -1,0 +1,2 @@
+[2025-02-21 21:48:54.160 +09:00] [MainWindow.xaml.cs: 31] [Window_Loaded] POST
+[2025-02-21 21:48:54.163 +09:00] [MainWindow.xaml.cs: 32] [Window_Loaded] レスポンス: {"status":"error","error":{"field":"application_id","message":"APPLICATION_ID_NOT_SPECIFIED","code":402,"value":null}}

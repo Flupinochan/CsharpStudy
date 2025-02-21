@@ -1,0 +1,2 @@
+Package/Referencesで、NuGetで外部ライブラリを追加可能
+NuGetは、.NETにおけるパッケージ管理ツール(Pythonにおけるpip)

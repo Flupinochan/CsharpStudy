@@ -1,0 +1,2 @@
+1.AttributeからHeightやWidthを消す
+2.HorizontalAlignmentとVerticalAlignmentをCenterにする
