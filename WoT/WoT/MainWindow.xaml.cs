@@ -30,24 +30,33 @@ public partial class MainWindow : Window
     /// </summary>
     private async void Window_Loaded(object sender, RoutedEventArgs e)
     {
+        await TestRequest();
+    }
+
+    /// <summary>
+    /// テストリクエスト用
+    /// </summary>
+    /// <returns></returns>
+    private async Task TestRequest()
+    {
         TestApiHelper helper = new TestApiHelper();
-        TestRequestData testRequestData = new TestRequestData("apiKey", "secretKey");
-        HttpResponseMessage response =  await helper.Post(testRequestData);
+        TestRequestData testRequestData = new TestRequestData(App.ApplicationId!, "metalmental");
+        HttpResponseMessage response = await helper.Get(testRequestData);
+        // HttpResponseMessage response =  await helper.Post(testRequestData);
         string responseBody = await response.Content.ReadAsStringAsync();
-        App.Logger.INFO($"ステータスコード: {response.StatusCode}");
+        App.Logger.DEBUG($"ステータスコード: {response.StatusCode}");
         // ※Wot APIでは、全てHttpStatusCode.OKのステータスコードのため、意味がない
+        // 判別するとしたら、レスポンスボディのステータスコード
         //if (response.StatusCode == HttpStatusCode.OK)
-        //if (response.IsSuccessStatusCode)
-        if (false)
+        if (response.IsSuccessStatusCode)
         {
             TestSuccessResponseData responseData = JsonSerializer.Deserialize<TestSuccessResponseData>(responseBody)!;
-            App.Logger.INFO($"正常時レスポンス: {responseData}");
+            App.Logger.DEBUG($"正常時レスポンス: {responseData}");
         }
         else
         {
             TestErrorResponseData responseData = JsonSerializer.Deserialize<TestErrorResponseData>(responseBody)!;
-            App.Logger.INFO($"エラー時レスポンス: {responseData}");
+            App.Logger.DEBUG($"エラー時レスポンス: {responseData}");
         }
-
     }
 }

@@ -122,6 +122,7 @@ namespace WoT.Utils
             string formattedLogMessage = $"[{timestamp}] [{fileName}: {lineNumber}] [{functionName}] {message}";
             try
             {
+                Debug.WriteLine(formattedLogMessage);
                  File.AppendAllText(_logFilePath, formattedLogMessage + Environment.NewLine);
             }
             catch (Exception ex)

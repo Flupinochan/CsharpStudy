@@ -1,0 +1,3 @@
+[2025-02-22 08:27:49.455 +09:00] [TestApiHelper.cs: 25] [Post] POSTリクエストボディ: System.Net.Http.StringContent
+[2025-02-22 08:27:49.908 +09:00] [MainWindow.xaml.cs: 37] [Window_Loaded] ステータスコード: OK
+[2025-02-22 08:27:49.923 +09:00] [MainWindow.xaml.cs: 49] [Window_Loaded] エラー時レスポンス: {"status":"error","error":{"field":"application_id","message":"APPLICATION_ID_NOT_SPECIFIED","code":402,"value":null}}

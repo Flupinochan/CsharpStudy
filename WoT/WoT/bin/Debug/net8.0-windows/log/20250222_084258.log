@@ -1,0 +1,2 @@
+[2025-02-22 08:43:01.521 +09:00] [TestApiHelper.cs: 26] [Post] POSTリクエストボディ: {"application_id":"0156f4fe1a465e6139a621f790046c60","search":"metalmental"}
+[2025-02-22 08:43:01.983 +09:00] [MainWindow.xaml.cs: 37] [Window_Loaded] ステータスコード: OK

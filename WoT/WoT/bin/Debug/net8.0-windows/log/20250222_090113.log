@@ -1,0 +1,2 @@
+[2025-02-22 09:01:16.560 +09:00] [MainWindow.xaml.cs: 37] [Window_Loaded] ステータスコード: OK
+[2025-02-22 09:01:16.606 +09:00] [MainWindow.xaml.cs: 43] [Window_Loaded] 正常時レスポンス: {"status":"error","meta":null,"data":null}

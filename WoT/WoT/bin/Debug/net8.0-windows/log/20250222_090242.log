@@ -1,0 +1,2 @@
+[2025-02-22 09:02:55.953 +09:00] [MainWindow.xaml.cs: 37] [Window_Loaded] ステータスコード: OK
+[2025-02-22 09:02:56.003 +09:00] [MainWindow.xaml.cs: 43] [Window_Loaded] 正常時レスポンス: {"status":"ok","meta":{"count":1},"data":[{"nickname":"metalmental","account_id":2020388370}]}

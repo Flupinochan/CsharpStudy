@@ -1,0 +1,3 @@
+[2025-02-22 08:34:57.907 +09:00] [TestApiHelper.cs: 26] [Post] POSTリクエストボディ: {"application_id":"0156f4fe1a465e6139a621f790046c60","search":"metalmental"}
+[2025-02-22 08:34:58.334 +09:00] [MainWindow.xaml.cs: 37] [Window_Loaded] ステータスコード: OK
+[2025-02-22 08:34:58.344 +09:00] [MainWindow.xaml.cs: 43] [Window_Loaded] 正常時レスポンス: {"account_id":null,"nickname":null}

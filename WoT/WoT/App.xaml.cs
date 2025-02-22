@@ -12,14 +12,16 @@ namespace WoT;
 public partial class App : Application
 {
     public static CustomLogger Logger = new CustomLogger();
-    public static string? Url;
+    public static string? BaseUrl;
+    public static string? ApplicationId;
 
     public App()
     {
         try
         {
             // 環境変数セットアップ
-            Url = ConfigurationManager.AppSettings["URL"]!;
+            BaseUrl = ConfigurationManager.AppSettings["BASE_URL"]!;
+            ApplicationId = ConfigurationManager.AppSettings["APPLICATION_ID"];
             string logLevelString = ConfigurationManager.AppSettings["LOG_LEVEL"]!;
 
             // ロガー初期化

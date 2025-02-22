@@ -1,0 +1,3 @@
+[2025-02-22 09:28:22.703 +09:00] [TestApiHelper.cs: 35] [Get] GETリクエストURL: https://api.worldoftanks.asia/wot/account/list/?application_id=0156f4fe1a465e6139a621f790046c60&search=metalmental
+[2025-02-22 09:28:23.630 +09:00] [MainWindow.xaml.cs: 47] [TestRequest] ステータスコード: OK
+[2025-02-22 09:28:23.685 +09:00] [MainWindow.xaml.cs: 54] [TestRequest] 正常時レスポンス: {"status":"ok","meta":{"count":1},"data":[{"nickname":"metalmental","account_id":2020388370}]}

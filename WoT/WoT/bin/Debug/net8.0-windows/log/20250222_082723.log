@@ -1,0 +1,2 @@
+[2025-02-22 08:27:24.314 +09:00] [MainWindow.xaml.cs: 37] [Window_Loaded] ステータスコード: OK
+[2025-02-22 08:27:24.335 +09:00] [MainWindow.xaml.cs: 49] [Window_Loaded] エラー時レスポンス: {"status":"error","error":{"field":"application_id","message":"APPLICATION_ID_NOT_SPECIFIED","code":402,"value":null}}
