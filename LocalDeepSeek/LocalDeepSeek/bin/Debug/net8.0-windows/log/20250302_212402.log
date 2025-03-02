@@ -1,0 +1,187 @@
+[2025-03-02 21:24:02.662 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 21:24:02.672 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 21:24:02.696 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 21:24:03.066 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 21:24:05.637 +09:00] [SqliteManagement.cs : 117] [ValidateUserLogin] test ユーザ ユーザID: 1が見つかりました
+[2025-03-02 21:24:05.649 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 21:24:05.656 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 19, UserId: 1, Title: 2025/03/02 09:05:20, CreatedAt: 2025-03-02 21:05:20, ChatHistoryId: 18, UserId: 1, Title: 2025/03/02 09:01:08, CreatedAt: 2025-03-02 21:01:08, ChatHistoryId: 17, UserId: 1, Title: 2025/03/02 08:59:02, CreatedAt: 2025-03-02 20:59:02, ChatHistoryId: 15, UserId: 1, Title: 2025/03/02 05:39:37, CreatedAt: 2025-03-02 17:39:37, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 21:24:08.256 +09:00] [SqliteManagement.cs : 223] [InsertHistory] 作成されたChatHistoryId: 20
+[2025-03-02 21:24:08.263 +09:00] [SqliteManagement.cs : 227] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-02 21:24:08.266 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 20, UserId: 1, Title: 2025/03/02 09:24:08, CreatedAt: 2025-03-02 21:24:08, ChatHistoryId: 19, UserId: 1, Title: 2025/03/02 09:05:20, CreatedAt: 2025-03-02 21:05:20, ChatHistoryId: 18, UserId: 1, Title: 2025/03/02 09:01:08, CreatedAt: 2025-03-02 21:01:08, ChatHistoryId: 17, UserId: 1, Title: 2025/03/02 08:59:02, CreatedAt: 2025-03-02 20:59:02, ChatHistoryId: 15, UserId: 1, Title: 2025/03/02 05:39:37, CreatedAt: 2025-03-02 17:39:37, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 21:24:08.277 +09:00] [SqliteManagement.cs : 262] [InsertMessage] Messageの挿入成功
+[2025-03-02 21:24:26.719 +09:00] [SqliteManagement.cs : 262] [InsertMessage] Messageの挿入成功
+[2025-03-02 21:24:26.722 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 48, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:24:08, MessageId: 49, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: testHello! 👋 How can I help you test something? 😊  Please tell me what you'd like to test and I'll do my best!  I can:* **Answer your questions** on a variety of topics.* **Generate different creative text formats**,  like poems, code, scripts, musical pieces, email, letters, etc.* **Translate languages.*** **Summarize text.*** **And more!** Let me know what you have in mind! 😄, CreatedAt: 2025-03-02 21:24:08
+[2025-03-02 21:24:35.635 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 46, ChatHistoryId: 19, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:05:39, MessageId: 47, ChatHistoryId: 19, UserId: 1, IsHuman: AI, Content: Did you want me to do something with "test"?  
+
+For example, I could:
+
+* **Define the word "test".**
+* **Give you examples of how "test" is used in a sentence.**
+* **Create a test for you!** 
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 21:05:49
+[2025-03-02 21:24:35.639 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 46, ChatHistoryId: 19, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:05:39, MessageId: 47, ChatHistoryId: 19, UserId: 1, IsHuman: AI, Content: Did you want me to do something with "test"?  
+
+For example, I could:
+
+* **Define the word "test".**
+* **Give you examples of how "test" is used in a sentence.**
+* **Create a test for you!** 
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 21:05:49
+[2025-03-02 21:24:36.204 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 48, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:24:08, MessageId: 49, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: testHello! 👋 How can I help you test something? 😊  Please tell me what you'd like to test and I'll do my best!  I can:* **Answer your questions** on a variety of topics.* **Generate different creative text formats**,  like poems, code, scripts, musical pieces, email, letters, etc.* **Translate languages.*** **Summarize text.*** **And more!** Let me know what you have in mind! 😄, CreatedAt: 2025-03-02 21:24:08
+[2025-03-02 21:24:36.206 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 48, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:24:08, MessageId: 49, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: testHello! 👋 How can I help you test something? 😊  Please tell me what you'd like to test and I'll do my best!  I can:* **Answer your questions** on a variety of topics.* **Generate different creative text formats**,  like poems, code, scripts, musical pieces, email, letters, etc.* **Translate languages.*** **Summarize text.*** **And more!** Let me know what you have in mind! 😄, CreatedAt: 2025-03-02 21:24:08
+[2025-03-02 21:24:36.775 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 46, ChatHistoryId: 19, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:05:39, MessageId: 47, ChatHistoryId: 19, UserId: 1, IsHuman: AI, Content: Did you want me to do something with "test"?  
+
+For example, I could:
+
+* **Define the word "test".**
+* **Give you examples of how "test" is used in a sentence.**
+* **Create a test for you!** 
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 21:05:49
+[2025-03-02 21:24:36.777 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 46, ChatHistoryId: 19, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:05:39, MessageId: 47, ChatHistoryId: 19, UserId: 1, IsHuman: AI, Content: Did you want me to do something with "test"?  
+
+For example, I could:
+
+* **Define the word "test".**
+* **Give you examples of how "test" is used in a sentence.**
+* **Create a test for you!** 
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 21:05:49
+[2025-03-02 21:24:37.051 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 21:24:37.053 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 21:24:37.404 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 21:24:37.406 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 21:24:37.715 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 36, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:39:51, MessageId: 37, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: 覆水盆に返らず  
+, CreatedAt: 2025-03-02 17:39:55, MessageId: 38, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:40:02, MessageId: 39, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: Water that is spilled cannot be recovered. 
+
+
+, CreatedAt: 2025-03-02 17:40:03
+[2025-03-02 21:24:37.717 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 36, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:39:51, MessageId: 37, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: 覆水盆に返らず  
+, CreatedAt: 2025-03-02 17:39:55, MessageId: 38, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:40:02, MessageId: 39, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: Water that is spilled cannot be recovered. 
+
+
+, CreatedAt: 2025-03-02 17:40:03
+[2025-03-02 21:24:38.058 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 19, ChatHistoryId: 8, UserId: 1, IsHuman: Human, Content: こんにちは, CreatedAt: 2025-03-02 17:05:34, MessageId: 20, ChatHistoryId: 8, UserId: 1, IsHuman: AI, Content: こんにちは！😊
+
+何かお手伝いできることはありますか？, CreatedAt: 2025-03-02 17:05:44
+[2025-03-02 21:24:38.060 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 19, ChatHistoryId: 8, UserId: 1, IsHuman: Human, Content: こんにちは, CreatedAt: 2025-03-02 17:05:34, MessageId: 20, ChatHistoryId: 8, UserId: 1, IsHuman: AI, Content: こんにちは！😊
+
+何かお手伝いできることはありますか？, CreatedAt: 2025-03-02 17:05:44
+[2025-03-02 21:24:38.445 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 21, ChatHistoryId: 9, UserId: 1, IsHuman: Human, Content: 生成AIについて教えてください, CreatedAt: 2025-03-02 17:06:11, MessageId: 22, ChatHistoryId: 9, UserId: 1, IsHuman: AI, Content: ## 生成AIとは？
+
+生成AIは、**人間が作成したテキスト、画像、音声など様々なデータを学習し、それらを元に新しいコンテンツを生成する人工知能**です。 従来のAIのように特定のタスクを実行するのではなく、創造的な活動を行うことができます。
+
+### 例：
+
+* **テキスト:** 文章、詩、コード、ストーリー、会話
+* **画像:** 写真、イラスト、絵画、3Dモデル
+* **音声:** 歌詞、ナレーション、セリフ、音楽
+* **動画:** アニメーション、合成映像、短編映画
+
+### 生成AIの仕組み:
+
+生成AIは主に「**深層学習**」と呼ばれる技術を用いています。大量のデータを学習し、その中にあるパターンや関係性を理解することで、新しいデータを作成する能力を獲得します。
+
+主なモデルとしては以下のものがあります:
+
+* **GPT-3 (Generative Pre-trained Transformer 3):** テキスト生成に特化したモデルで、自然な文章を生成することが得意です。
+* **DALL-E 2:** 画像生成に特化したモデルで、テキストから画像を作成することができます。
+* **Stable Diffusion:** オープンソースの画像生成モデルで、幅広い用途で使用されています。
+
+### 生成AIの可能性:
+
+* **コンテンツ制作:** 文章作成、デザイン、音楽作曲など、様々なコンテンツを自動化できます。
+* **教育:** 個別指導、学習教材作成、インタラクティブな学習体験を提供できます。
+* **医療:** 診断支援、創薬、病状予測などに活用できます。
+* **エンターテイメント:** ゲームシナリオ、アニメーション、仮想現実コンテンツなど、新しいエンターテイメント体験を創造できます。
+
+### 生成AIの課題:
+
+* **バイアス:** 学習データに含まれる偏見が反映され、差別的な出力になる可能性があります。
+* **著作権:** 自動生成されたコンテンツの所有権や使用許諾に関する問題があります。
+* **誤情報拡散:** 不正確な情報を広める可能性があり、事実確認が必要です。
+* **倫理的な問題:** 生成AIの利用目的や責任、透明性など、様々な倫理的な課題が議論されています。
+
+
+生成AIは急速に進化しており、私たちの生活に大きな影響を与えていくことが期待されます。 しかしながら、その可能性と課題を理解し、適切な利用方法を検討していくことが重要です。, CreatedAt: 2025-03-02 17:07:24
+[2025-03-02 21:24:38.448 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 21, ChatHistoryId: 9, UserId: 1, IsHuman: Human, Content: 生成AIについて教えてください, CreatedAt: 2025-03-02 17:06:11, MessageId: 22, ChatHistoryId: 9, UserId: 1, IsHuman: AI, Content: ## 生成AIとは？
+
+生成AIは、**人間が作成したテキスト、画像、音声など様々なデータを学習し、それらを元に新しいコンテンツを生成する人工知能**です。 従来のAIのように特定のタスクを実行するのではなく、創造的な活動を行うことができます。
+
+### 例：
+
+* **テキスト:** 文章、詩、コード、ストーリー、会話
+* **画像:** 写真、イラスト、絵画、3Dモデル
+* **音声:** 歌詞、ナレーション、セリフ、音楽
+* **動画:** アニメーション、合成映像、短編映画
+
+### 生成AIの仕組み:
+
+生成AIは主に「**深層学習**」と呼ばれる技術を用いています。大量のデータを学習し、その中にあるパターンや関係性を理解することで、新しいデータを作成する能力を獲得します。
+
+主なモデルとしては以下のものがあります:
+
+* **GPT-3 (Generative Pre-trained Transformer 3):** テキスト生成に特化したモデルで、自然な文章を生成することが得意です。
+* **DALL-E 2:** 画像生成に特化したモデルで、テキストから画像を作成することができます。
+* **Stable Diffusion:** オープンソースの画像生成モデルで、幅広い用途で使用されています。
+
+### 生成AIの可能性:
+
+* **コンテンツ制作:** 文章作成、デザイン、音楽作曲など、様々なコンテンツを自動化できます。
+* **教育:** 個別指導、学習教材作成、インタラクティブな学習体験を提供できます。
+* **医療:** 診断支援、創薬、病状予測などに活用できます。
+* **エンターテイメント:** ゲームシナリオ、アニメーション、仮想現実コンテンツなど、新しいエンターテイメント体験を創造できます。
+
+### 生成AIの課題:
+
+* **バイアス:** 学習データに含まれる偏見が反映され、差別的な出力になる可能性があります。
+* **著作権:** 自動生成されたコンテンツの所有権や使用許諾に関する問題があります。
+* **誤情報拡散:** 不正確な情報を広める可能性があり、事実確認が必要です。
+* **倫理的な問題:** 生成AIの利用目的や責任、透明性など、様々な倫理的な課題が議論されています。
+
+
+生成AIは急速に進化しており、私たちの生活に大きな影響を与えていくことが期待されます。 しかしながら、その可能性と課題を理解し、適切な利用方法を検討していくことが重要です。, CreatedAt: 2025-03-02 17:07:24
+[2025-03-02 21:24:38.716 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 36, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:39:51, MessageId: 37, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: 覆水盆に返らず  
+, CreatedAt: 2025-03-02 17:39:55, MessageId: 38, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:40:02, MessageId: 39, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: Water that is spilled cannot be recovered. 
+
+
+, CreatedAt: 2025-03-02 17:40:03
+[2025-03-02 21:24:38.718 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 36, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:39:51, MessageId: 37, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: 覆水盆に返らず  
+, CreatedAt: 2025-03-02 17:39:55, MessageId: 38, ChatHistoryId: 15, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:40:02, MessageId: 39, ChatHistoryId: 15, UserId: 1, IsHuman: AI, Content: Water that is spilled cannot be recovered. 
+
+
+, CreatedAt: 2025-03-02 17:40:03
+[2025-03-02 21:24:39.081 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 46, ChatHistoryId: 19, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:05:39, MessageId: 47, ChatHistoryId: 19, UserId: 1, IsHuman: AI, Content: Did you want me to do something with "test"?  
+
+For example, I could:
+
+* **Define the word "test".**
+* **Give you examples of how "test" is used in a sentence.**
+* **Create a test for you!** 
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 21:05:49
+[2025-03-02 21:24:39.083 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 46, ChatHistoryId: 19, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:05:39, MessageId: 47, ChatHistoryId: 19, UserId: 1, IsHuman: AI, Content: Did you want me to do something with "test"?  
+
+For example, I could:
+
+* **Define the word "test".**
+* **Give you examples of how "test" is used in a sentence.**
+* **Create a test for you!** 
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 21:05:49
+[2025-03-02 21:24:39.377 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 48, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:24:08, MessageId: 49, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: testHello! 👋 How can I help you test something? 😊  Please tell me what you'd like to test and I'll do my best!  I can:* **Answer your questions** on a variety of topics.* **Generate different creative text formats**,  like poems, code, scripts, musical pieces, email, letters, etc.* **Translate languages.*** **Summarize text.*** **And more!** Let me know what you have in mind! 😄, CreatedAt: 2025-03-02 21:24:08
+[2025-03-02 21:24:39.379 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 48, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 21:24:08, MessageId: 49, ChatHistoryId: 20, UserId: 1, IsHuman: Human, Content: testHello! 👋 How can I help you test something? 😊  Please tell me what you'd like to test and I'll do my best!  I can:* **Answer your questions** on a variety of topics.* **Generate different creative text formats**,  like poems, code, scripts, musical pieces, email, letters, etc.* **Translate languages.*** **Summarize text.*** **And more!** Let me know what you have in mind! 😄, CreatedAt: 2025-03-02 21:24:08

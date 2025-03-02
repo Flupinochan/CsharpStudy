@@ -101,7 +101,8 @@
                                     Width="Auto">
                             <TextBox Text="{Binding Content}"
                                      Width="1050"
-                                     TextWrapping="Wrap">
+                                     TextWrapping="Wrap"
+                                     FontSize="20">
                                 <TextBox.Style>
                                     <Style TargetType="TextBox">
                                         <Style.Triggers>
@@ -110,11 +111,13 @@
                                                 <Setter Property="Foreground" Value="SkyBlue"/>
                                                 <Setter Property="HorizontalAlignment" Value="Left"/>
                                                 <Setter Property="Margin" Value="0, 0, 20, 0"/>
+                                                <Setter Property="HorizontalContentAlignment" Value="Left"/>
                                             </DataTrigger>
                                             <DataTrigger Binding="{Binding IsHuman}" Value="0">
                                                 <Setter Property="Foreground" Value="LimeGreen"/>
                                                 <Setter Property="HorizontalAlignment" Value="Right"/>
                                                 <Setter Property="Margin" Value="20, 0, 0, 0"/>
+                                                <Setter Property="HorizontalContentAlignment" Value="Right"/>
                                             </DataTrigger>
                                         </Style.Triggers>
                                     </Style>

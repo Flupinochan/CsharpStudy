@@ -245,7 +245,7 @@ class SqliteManagement
     /// <param name="userId"></param>
     /// <param name="isHuman"></param>
     /// <param name="content"></param>
-    public static void InsertMessage(Int32 chatHistoryId, Int32 userId, Int32 isHuman, String content)
+    public static void InsertMessage(Message message)
     {
         // SQLite接続
         using(SQLiteConnection connection = new SQLiteConnection(App.DatabasePath))
@@ -254,14 +254,6 @@ class SqliteManagement
             connection.BeginTransaction();
             try
             {
-                Message message = new Message()
-                {
-                    ChatHistoryId = chatHistoryId,
-                    UserId = userId,
-                    IsHuman = isHuman,
-                    Content = content,
-                };
-
                 // Messageデータクラスを挿入
                 connection.Insert(message);
 

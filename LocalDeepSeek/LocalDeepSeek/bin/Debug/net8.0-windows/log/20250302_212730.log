@@ -1,0 +1,13 @@
+[2025-03-02 21:27:30.751 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 21:27:30.756 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 21:27:30.757 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 21:27:31.147 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 21:27:35.018 +09:00] [SqliteManagement.cs : 117] [ValidateUserLogin] test ユーザ ユーザID: 1が見つかりました
+[2025-03-02 21:27:35.029 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 21:27:35.038 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 19, UserId: 1, Title: 2025/03/02 09:05:20, CreatedAt: 2025-03-02 21:05:20, ChatHistoryId: 15, UserId: 1, Title: 2025/03/02 05:39:37, CreatedAt: 2025-03-02 17:39:37, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 21:27:41.585 +09:00] [SqliteManagement.cs : 223] [InsertHistory] 作成されたChatHistoryId: 21
+[2025-03-02 21:27:41.590 +09:00] [SqliteManagement.cs : 227] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-02 21:27:41.593 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 21, UserId: 1, Title: 2025/03/02 09:27:41, CreatedAt: 2025-03-02 21:27:41, ChatHistoryId: 19, UserId: 1, Title: 2025/03/02 09:05:20, CreatedAt: 2025-03-02 21:05:20, ChatHistoryId: 15, UserId: 1, Title: 2025/03/02 05:39:37, CreatedAt: 2025-03-02 17:39:37, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 21:27:41.603 +09:00] [SqliteManagement.cs : 262] [InsertMessage] Messageの挿入成功
+[2025-03-02 21:27:49.309 +09:00] [SqliteManagement.cs : 262] [InsertMessage] Messageの挿入成功
+[2025-03-02 21:27:49.312 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 50, ChatHistoryId: 21, UserId: 1, IsHuman: Human, Content: testです, CreatedAt: 2025-03-02 21:27:41, MessageId: 51, ChatHistoryId: 21, UserId: 1, IsHuman: Human, Content: testですテストを受けました！何か私にやってほしいことはありますか？ 例えば、文章を書いてもらうとか、質問に答えてくれるとか... 😊  日本語で話しかけてくださいね。, CreatedAt: 2025-03-02 21:27:41

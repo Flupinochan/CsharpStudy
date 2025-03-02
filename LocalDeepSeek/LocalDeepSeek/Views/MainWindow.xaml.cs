@@ -2,6 +2,7 @@
 using LocalDeepSeek.Services;
 using LocalDeepSeek.Utils;
 using Microsoft.Extensions.AI;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.Windows;
@@ -16,6 +17,7 @@ namespace LocalDeepSeek.Views;
 public partial class MainWindow : Window
 {
     private List<Message> _messageList;
+    private MessageViewModel _messageViewModel;
     private List<ChatHistory> _chatHistoryList;
     private Int32 _selectedChatHistoryId;
 
@@ -26,10 +28,11 @@ public partial class MainWindow : Window
         _chatHistoryList = new List<ChatHistory>();
         _selectedChatHistoryId = -1;
         UpdateMessages();
+        _messageViewModel = new MessageViewModel();
+        _messageViewModel.Messages = new ObservableCollection<Message>(_messageList);
+        this.MessageListView.ItemsSource = _messageViewModel.Messages;
         UpdateChatHistories();
     }
-
-
 
 
     /// <summary>
@@ -123,16 +126,41 @@ public partial class MainWindow : Window
             UpdateChatHistories();
         }
 
-        // HumanのMessageを挿入
-        String input = this.UserInputTextBox.Text;
-        SqliteManagement.InsertMessage(_selectedChatHistoryId, LoginWindow.UserId, 1, input);
-        UpdateMessages();
-        this.UserInputTextBox.Text = String.Empty;
+        // ViewModelバインドに切り替え
+        _messageViewModel.Messages = new ObservableCollection<Message>(_messageList);
+        this.MessageListView.ItemsSource = _messageViewModel.Messages;
 
-        // 生成AIのMessageを挿入
-        // String response = await ChatService.Chat(input);
-        String response = await ChatService.ChatWithHistory(input, _messageList);
-        SqliteManagement.InsertMessage(_selectedChatHistoryId, LoginWindow.UserId, 0, response);
+        // HumanのMessageをViewModelに追加
+        String input = this.UserInputTextBox.Text;
+        Message humanMessage = new Message()
+        {
+            ChatHistoryId = _selectedChatHistoryId,
+            UserId = LoginWindow.UserId,
+            IsHuman = 1,
+            Content = input,
+        };
+        _messageViewModel.Messages.Add(humanMessage);
+
+        this.UserInputTextBox.Text = String.Empty;
+        
+        // DB挿入 (ユーザメッセージ)
+        SqliteManagement.InsertMessage(humanMessage);
+
+        // AIのMessageをViewModelに追加
+        Message aiMessage = new Message()
+        {
+            ChatHistoryId = _selectedChatHistoryId,
+            UserId = LoginWindow.UserId,
+            IsHuman = 0,
+            Content = String.Empty,
+        };
+        _messageViewModel.Messages.Add(aiMessage);
+        await ChatService.StreamingWithHistory(input, _messageViewModel);
+
+        // DB挿入 (AIメッセージ)
+        SqliteManagement.InsertMessage(aiMessage);
+
+        // DBから反映
         UpdateMessages();
 
         // UI更新
@@ -147,6 +175,7 @@ public partial class MainWindow : Window
     private void UpdateMessages()
     {
         this._messageList = SqliteManagement.GetMessageList(LoginWindow.UserId, _selectedChatHistoryId);
+        // Messageバインドに切り替え
         this.MessageListView.ItemsSource = this._messageList;
     }
 
