@@ -1,0 +1,3 @@
+[2025-02-22 12:00:58.868 +09:00] [TestApiHelper.cs: 29] [Get] GETリクエストURL: https://api.worldoftanks.asia/wot/account/list/?application_id=0156f4fe1a465e6139a621f790046c60&search=metalmental12434
+[2025-02-22 12:00:59.666 +09:00] [MainWindow.xaml.cs: 34] [TestRequest] ステータスコード: OK
+[2025-02-22 12:00:59.713 +09:00] [MainWindow.xaml.cs: 42] [TestRequest] 正常時レスポンス: {"status":"ok","meta":{"count":0},"data":[]}

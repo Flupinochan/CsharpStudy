@@ -1,0 +1,7 @@
+[2025-03-02 13:40:33.970 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 13:40:33.976 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 13:40:33.978 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 13:40:34.408 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 13:40:39.460 +09:00] [SqliteManagement.cs : 116] [ValidateUserLogin] test ユーザが見つかりました
+[2025-03-02 13:40:39.469 +09:00] [SqliteManagement.cs : 149] [GetMessageList] MessageのListを取得: 
+[2025-03-02 13:40:39.476 +09:00] [SqliteManagement.cs : 179] [GetChatHistoryList] ChatHistoryのListを取得: 

@@ -1,0 +1,7 @@
+[2025-03-02 17:51:16.466 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 17:51:16.471 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 17:51:16.473 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 17:51:16.792 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 17:51:19.337 +09:00] [SqliteManagement.cs : 117] [ValidateUserLogin] test ユーザ ユーザID: 1が見つかりました
+[2025-03-02 17:51:19.349 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:51:19.357 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 15, UserId: 1, Title: 2025/03/02 05:39:37, CreatedAt: 2025-03-02 17:39:37, ChatHistoryId: 14, UserId: 1, Title: 2025/03/02 05:34:27, CreatedAt: 2025-03-02 17:34:27, ChatHistoryId: 10, UserId: 1, Title: 2025/03/02 05:31:07, CreatedAt: 2025-03-02 17:31:07, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27

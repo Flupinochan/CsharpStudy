@@ -1,0 +1,4 @@
+[2025-02-22 19:12:54.726 +09:00] [PlayersApi.cs: 29] [Get] GETリクエストURL: https://api.worldoftanks.asia/wot/account/list/?application_id=0156f4fe1a465e6139a621f790046c60&search=metalmental
+[2025-02-22 19:12:55.755 +09:00] [MainWindow.xaml.cs: 55] [GetPlayerId] プレイヤーID: {"status":"ok","meta":{"count":1},"data":[{"nickname":"metalmental","account_id":2020388370}]}
+[2025-02-22 19:12:55.762 +09:00] [PlayerPersonalApi.cs: 29] [Get] GETリクエストURL: https://api.worldoftanks.asia/wot/account/info/?application_id=0156f4fe1a465e6139a621f790046c60&account_id=2020388370&language=en&fields=statistics.all%2c+created_at%2c+clan_id%2c+global_rating%2c+last_battle_time
+[2025-02-22 19:12:56.097 +09:00] [MainWindow.xaml.cs: 90] [GetPlayerPersonalData] プレイヤー情報: WoT.Utils.PlayerPersonalResponseData

@@ -1,0 +1,5 @@
+[2025-03-02 12:42:57.903 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 12:42:57.909 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 12:42:57.912 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 12:42:58.289 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 12:43:06.988 +09:00] [SqliteManagement.cs : 73] [CreateUser] 新規ユーザ作成成功 UserId: 1 UserName: test

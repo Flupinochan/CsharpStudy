@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\川越　鉄郎\\Desktop\\C#\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\川越　鉄郎\\Desktop\\C#\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\川越　鉄郎\\Desktop\\C#\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\川越　鉄郎\\Desktop\\C#\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\川越　鉄郎\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\川越　鉄郎\\Desktop\\C#\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\HelloWorld\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,7 +25,8 @@
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -43,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -64,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

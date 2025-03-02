@@ -1,0 +1,42 @@
+﻿<Window x:Class="sqlite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:sqlite"
+        xmlns:contact="clr-namespace:sqlite.CustomControl"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <!-- ユーザコントロールへのnamespace設定 -->
+    <Grid>
+        <StackPanel Margin="10">
+            <Button Content="New Contact"
+                    Click="Button_Click"/>
+
+            <TextBox x:Name="FilterTextBox"
+                     Margin="5"
+                     TextChanged="FilterTextBox_TextChanged"/>
+
+            <!-- Listのバインド -->
+            <ListView x:Name="ContactsListView"
+                      Margin="5"
+                      Height="300"
+                      SelectionChanged="ContactsListView_SelectionChanged">
+                
+                <!-- ItemのStyle -->
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <!-- クラスのフィールド指定しないとListの要素がそのままバインドされる -->
+                        <contact:ContactControl Contact="{Binding}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Window>

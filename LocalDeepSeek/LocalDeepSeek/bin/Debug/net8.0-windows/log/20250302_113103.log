@@ -1,0 +1,6 @@
+[2025-03-02 11:31:03.176 +09:00] [App.xaml.cs : 38] [.ctor] アプリケーション起動
+[2025-03-02 11:31:03.180 +09:00] [App.xaml.cs : 40] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 11:31:03.182 +09:00] [App.xaml.cs : 40] [.ctor] LOG_DIRECTORY_NAME: log
+[2025-03-02 11:31:03.183 +09:00] [App.xaml.cs : 40] [.ctor] DATABASE_NAME: LocalDeepSeek.db
+[2025-03-02 11:31:03.185 +09:00] [App.xaml.cs : 40] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 11:31:03.499 +09:00] [SqliteManagement.cs : 37] [CreateTable] データベース作成成功

@@ -41,3 +41,6 @@ C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\
 C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\Debug\net8.0-windows\WoT.pdb
 C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\Debug\net8.0-windows\WoT.genruntimeconfig.cache
 C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\Debug\net8.0-windows\ref\WoT.dll
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\Debug\net8.0-windows\FilterWindow.g.cs
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\Debug\net8.0-windows\FilterWindow.baml
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\WoT\WoT\obj\Debug\net8.0-windows\App.baml

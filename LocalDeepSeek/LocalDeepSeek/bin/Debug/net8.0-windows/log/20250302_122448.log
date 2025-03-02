@@ -1,0 +1,5 @@
+[2025-03-02 12:24:48.801 +09:00] [App.xaml.cs : 38] [.ctor] アプリケーション起動
+[2025-03-02 12:24:48.805 +09:00] [App.xaml.cs : 40] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 12:24:48.806 +09:00] [App.xaml.cs : 40] [.ctor] LOG_DIRECTORY_NAME: log
+[2025-03-02 12:24:48.808 +09:00] [App.xaml.cs : 40] [.ctor] DATABASE_NAME: database\LocalDeepSeek.db
+[2025-03-02 12:24:48.809 +09:00] [App.xaml.cs : 40] [.ctor] MODEL_ID: gemma2:9b

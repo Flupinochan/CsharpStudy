@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite2\\sqlite\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite2\\sqlite\\customcontrol\\contactcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\customcontrol\\contactcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite2\\sqlite\\customcontrol\\contactcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\customcontrol\\contactcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\sqlite\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "sqlite\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\sqlite\\MainWindow.xaml",
+              "RelativeToolTip": "sqlite\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T10:34:44.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactControl.xaml",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\sqlite\\CustomControl\\ContactControl.xaml",
+              "RelativeDocumentMoniker": "sqlite\\CustomControl\\ContactControl.xaml",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\sqlite\\CustomControl\\ContactControl.xaml",
+              "RelativeToolTip": "sqlite\\CustomControl\\ContactControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T10:09:37.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContactControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\sqlite\\CustomControl\\ContactControl.xaml.cs",
+              "RelativeDocumentMoniker": "sqlite\\CustomControl\\ContactControl.xaml.cs",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite2\\sqlite\\CustomControl\\ContactControl.xaml.cs",
+              "RelativeToolTip": "sqlite\\CustomControl\\ContactControl.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwCwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T10:20:15.736Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

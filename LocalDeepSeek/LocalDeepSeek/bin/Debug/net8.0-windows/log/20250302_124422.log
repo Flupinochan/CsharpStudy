@@ -1,0 +1,9 @@
+[2025-03-02 12:44:22.323 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 12:44:22.328 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 12:44:22.331 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 12:44:22.710 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 12:44:38.549 +09:00] [SqliteManagement.cs : 79] [CreateUser] 新規ユーザ作成失敗: SQLite.SQLiteException: UNIQUE constraint failed: User.UserName
+   at SQLite.PreparedSqlLiteInsertCommand.ExecuteNonQuery(Object[] source)
+   at SQLite.SQLiteConnection.Insert(Object obj, String extra, Type objType)
+   at SQLite.SQLiteConnection.Insert(Object obj)
+   at LocalDeepSeek.Utils.SqliteManagement.CreateUser(String userName, String hashPassword) in C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\LocalDeepSeek\LocalDeepSeek\Utils\SqliteManagement.cs:line 69

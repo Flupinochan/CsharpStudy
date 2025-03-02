@@ -1,0 +1,5 @@
+[2025-03-02 10:02:56.157 +09:00] [App.xaml.cs : 34] [.ctor] アプリケーション起動
+[2025-03-02 10:02:56.161 +09:00] [App.xaml.cs : 36] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 10:02:56.162 +09:00] [App.xaml.cs : 36] [.ctor] LOG_DIRECTORY_NAME: log
+[2025-03-02 10:02:56.164 +09:00] [App.xaml.cs : 36] [.ctor] DATABASE_NAME: LocalDeepSeek.db
+[2025-03-02 10:02:56.604 +09:00] [SqliteManagement.cs : 32] [CreateTable] データベース作成

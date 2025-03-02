@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite\\sqlite\\contactupdatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\contactupdatewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite\\sqlite\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite\\sqlite\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\sqlite\\sqlite\\contactupdatewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9875548C-B979-40A9-BED6-2AAABED4A6E1}|sqlite\\sqlite.csproj|solutionrelative:sqlite\\contactupdatewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactUpdateWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\ContactUpdateWindow.xaml.cs",
+              "RelativeDocumentMoniker": "sqlite\\ContactUpdateWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\ContactUpdateWindow.xaml.cs",
+              "RelativeToolTip": "sqlite\\ContactUpdateWindow.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswB4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T09:14:09.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContactUpdateWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\ContactUpdateWindow.xaml",
+              "RelativeDocumentMoniker": "sqlite\\ContactUpdateWindow.xaml",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\ContactUpdateWindow.xaml",
+              "RelativeToolTip": "sqlite\\ContactUpdateWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T09:12:59.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "sqlite\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\MainWindow.xaml",
+              "RelativeToolTip": "sqlite\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-01T08:18:10.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "sqlite\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\sqlite\\sqlite\\MainWindow.xaml.cs",
+              "RelativeToolTip": "sqlite\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAgwFwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T08:19:08.211Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

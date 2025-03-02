@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "hwCwpY+PWZM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\LocalDeepSeek\\LocalDeepSeek\\LocalDeepSeek.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.3.0-preview.1.25114.11\\microsoft.extensions.ai.abstractions.9.3.0-preview.1.25114.11.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\microsoft.extensions.ai.ollama\\9.3.0-preview.1.25114.11\\microsoft.extensions.ai.ollama.9.3.0-preview.1.25114.11.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\sqlite-net-pcl\\1.9.172\\sqlite-net-pcl.1.9.172.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.1.2\\sqlitepclraw.bundle_green.2.1.2.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\sqlitepclraw.core\\2.1.2\\sqlitepclraw.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.2\\sqlitepclraw.lib.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.2\\sqlitepclraw.provider.e_sqlite3.2.1.2.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\system.net.http.json\\8.0.1\\system.net.http.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\system.text.json\\8.0.5\\system.text.json.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

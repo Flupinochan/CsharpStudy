@@ -1,0 +1,35 @@
+[2025-03-02 17:45:50.894 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 17:45:50.899 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 17:45:50.901 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 17:45:51.335 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 17:45:56.226 +09:00] [SqliteManagement.cs : 128] [ValidateUserLogin] test2 ユーザが見つかりませんでした
+[2025-03-02 17:45:58.499 +09:00] [SqliteManagement.cs : 117] [ValidateUserLogin] test2 ユーザ ユーザID: 2が見つかりました
+[2025-03-02 17:45:58.510 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:45:58.517 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: 
+[2025-03-02 17:46:06.310 +09:00] [SqliteManagement.cs : 223] [InsertHistory] 作成されたChatHistoryId: 16
+[2025-03-02 17:46:06.316 +09:00] [SqliteManagement.cs : 227] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-02 17:46:06.319 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 16, UserId: 2, Title: 2025/03/02 05:46:06, CreatedAt: 2025-03-02 17:46:06
+[2025-03-02 17:46:06.323 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:46:15.302 +09:00] [SqliteManagement.cs : 270] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:46:15.305 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 40, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: testです。1行応答してください, CreatedAt: 2025-03-02 17:46:15
+[2025-03-02 17:46:21.673 +09:00] [SqliteManagement.cs : 270] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:46:21.676 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 40, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: testです。1行応答してください, CreatedAt: 2025-03-02 17:46:15, MessageId: 41, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: テスト完了です。  
+, CreatedAt: 2025-03-02 17:46:21
+[2025-03-02 17:46:42.286 +09:00] [SqliteManagement.cs : 270] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:46:42.289 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 40, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: testです。1行応答してください, CreatedAt: 2025-03-02 17:46:15, MessageId: 41, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: テスト完了です。  
+, CreatedAt: 2025-03-02 17:46:21, MessageId: 42, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: 再度テストします, CreatedAt: 2025-03-02 17:46:42
+[2025-03-02 17:46:46.615 +09:00] [SqliteManagement.cs : 270] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:46:46.618 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 40, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: testです。1行応答してください, CreatedAt: 2025-03-02 17:46:15, MessageId: 41, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: テスト完了です。  
+, CreatedAt: 2025-03-02 17:46:21, MessageId: 42, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: 再度テストします, CreatedAt: 2025-03-02 17:46:42, MessageId: 43, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: 理解しました。再度テストをお受けいたします。  
+, CreatedAt: 2025-03-02 17:46:46
+[2025-03-02 17:46:55.950 +09:00] [SqliteManagement.cs : 270] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:46:55.953 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 40, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: testです。1行応答してください, CreatedAt: 2025-03-02 17:46:15, MessageId: 41, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: テスト完了です。  
+, CreatedAt: 2025-03-02 17:46:21, MessageId: 42, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: 再度テストします, CreatedAt: 2025-03-02 17:46:42, MessageId: 43, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: 理解しました。再度テストをお受けいたします。  
+, CreatedAt: 2025-03-02 17:46:46, MessageId: 44, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: 何回テストしましたか, CreatedAt: 2025-03-02 17:46:55
+[2025-03-02 17:46:59.184 +09:00] [SqliteManagement.cs : 270] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:46:59.186 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 40, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: testです。1行応答してください, CreatedAt: 2025-03-02 17:46:15, MessageId: 41, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: テスト完了です。  
+, CreatedAt: 2025-03-02 17:46:21, MessageId: 42, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: 再度テストします, CreatedAt: 2025-03-02 17:46:42, MessageId: 43, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: 理解しました。再度テストをお受けいたします。  
+, CreatedAt: 2025-03-02 17:46:46, MessageId: 44, ChatHistoryId: 16, UserId: 2, IsHuman: Human, Content: 何回テストしましたか, CreatedAt: 2025-03-02 17:46:55, MessageId: 45, ChatHistoryId: 16, UserId: 2, IsHuman: AI, Content: 2回テストしていただきました。 😊 
+
+
+, CreatedAt: 2025-03-02 17:46:59

@@ -1,0 +1,45 @@
+[2025-03-02 16:04:30.473 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 16:04:30.478 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 16:04:30.481 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 16:04:30.890 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 16:04:34.751 +09:00] [SqliteManagement.cs : 116] [ValidateUserLogin] test ユーザが見つかりました
+[2025-03-02 16:04:34.761 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 16:04:34.769 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 6, UserId: 1, Title: 2025/03/02 04:03:35, CreatedAt: 2025-03-02 16:03:35, ChatHistoryId: 5, UserId: 1, Title: 2025/03/02 03:55:54, CreatedAt: 2025-03-02 15:55:54, ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 03:42:38, CreatedAt: 2025-03-02 15:42:38
+[2025-03-02 16:04:35.990 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 16:04:35.993 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 16:04:36.556 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 7, ChatHistoryId: 5, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 15:56:02, MessageId: 8, ChatHistoryId: 5, UserId: 1, IsHuman: AI, Content: Please provide me with something to test! 
+
+For example, you could:
+
+* **Ask me a question:**  "What is the capital of France?"
+* **Give me a writing prompt:** "Write a short story about a robot who learns to feel emotions."
+* **Have me translate something:** "Translate 'Hello, world!' into Spanish."
+* **Test my knowledge:** "What are the main branches of physics?"
+
+
+Let me know what you'd like to test! 😊 
+, CreatedAt: 2025-03-02 15:56:17, MessageId: 13, ChatHistoryId: 5, UserId: 1, IsHuman: Human, Content: 私の名前はCです, CreatedAt: 2025-03-02 15:57:07, MessageId: 14, ChatHistoryId: 5, UserId: 1, IsHuman: AI, Content: こんにちは、Cさん！
+
+お会いできて嬉しいです。何かお手伝いできることはありますか？😊, CreatedAt: 2025-03-02 15:57:10
+[2025-03-02 16:04:36.559 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 7, ChatHistoryId: 5, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 15:56:02, MessageId: 8, ChatHistoryId: 5, UserId: 1, IsHuman: AI, Content: Please provide me with something to test! 
+
+For example, you could:
+
+* **Ask me a question:**  "What is the capital of France?"
+* **Give me a writing prompt:** "Write a short story about a robot who learns to feel emotions."
+* **Have me translate something:** "Translate 'Hello, world!' into Spanish."
+* **Test my knowledge:** "What are the main branches of physics?"
+
+
+Let me know what you'd like to test! 😊 
+, CreatedAt: 2025-03-02 15:56:17, MessageId: 13, ChatHistoryId: 5, UserId: 1, IsHuman: Human, Content: 私の名前はCです, CreatedAt: 2025-03-02 15:57:07, MessageId: 14, ChatHistoryId: 5, UserId: 1, IsHuman: AI, Content: こんにちは、Cさん！
+
+お会いできて嬉しいです。何かお手伝いできることはありますか？😊, CreatedAt: 2025-03-02 15:57:10
+[2025-03-02 16:04:36.980 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください, CreatedAt: 2025-03-02 15:42:38, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:42:46, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください。, CreatedAt: 2025-03-02 15:43:13, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:43:16, MessageId: 9, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 私の名前はAです, CreatedAt: 2025-03-02 15:56:27, MessageId: 10, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: こんにちは、Aさん！ 👋  
+
+何かお手伝いしましょうか？😊, CreatedAt: 2025-03-02 15:56:30
+[2025-03-02 16:04:36.984 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください, CreatedAt: 2025-03-02 15:42:38, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:42:46, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください。, CreatedAt: 2025-03-02 15:43:13, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:43:16, MessageId: 9, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 私の名前はAです, CreatedAt: 2025-03-02 15:56:27, MessageId: 10, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: こんにちは、Aさん！ 👋  
+
+何かお手伝いしましょうか？😊, CreatedAt: 2025-03-02 15:56:30
+[2025-03-02 16:04:37.368 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 16:04:37.371 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 

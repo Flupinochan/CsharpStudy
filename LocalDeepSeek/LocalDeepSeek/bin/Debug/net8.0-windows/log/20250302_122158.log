@@ -1,0 +1,15 @@
+[2025-03-02 12:21:58.400 +09:00] [App.xaml.cs : 38] [.ctor] アプリケーション起動
+[2025-03-02 12:21:58.404 +09:00] [App.xaml.cs : 40] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 12:21:58.406 +09:00] [App.xaml.cs : 40] [.ctor] LOG_DIRECTORY_NAME: log
+[2025-03-02 12:21:58.411 +09:00] [App.xaml.cs : 40] [.ctor] DATABASE_NAME: LocalDeepSeek.db
+[2025-03-02 12:21:58.414 +09:00] [App.xaml.cs : 40] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 12:21:58.777 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 12:22:05.397 +09:00] [SqliteManagement.cs : 109] [ValidateUserLogin] ユーザが見つかりました: ユーザー名
+[2025-03-02 12:22:14.438 +09:00] [SqliteManagement.cs : 79] [CreateUser] 新規ユーザ作成失敗: SQLite.NotNullConstraintViolationException: NOT NULL constraint failed: User.PasswordHash
+   at SQLite.SQLiteConnection.Insert(Object obj, String extra, Type objType)
+   at SQLite.SQLiteConnection.Insert(Object obj)
+   at LocalDeepSeek.Utils.SqliteManagement.CreateUser(String userName, String hashPassword) in C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\LocalDeepSeek\LocalDeepSeek\Utils\SqliteManagement.cs:line 69
+[2025-03-02 12:22:22.977 +09:00] [SqliteManagement.cs : 79] [CreateUser] 新規ユーザ作成失敗: SQLite.NotNullConstraintViolationException: NOT NULL constraint failed: User.PasswordHash
+   at SQLite.SQLiteConnection.Insert(Object obj, String extra, Type objType)
+   at SQLite.SQLiteConnection.Insert(Object obj)
+   at LocalDeepSeek.Utils.SqliteManagement.CreateUser(String userName, String hashPassword) in C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\LocalDeepSeek\LocalDeepSeek\Utils\SqliteManagement.cs:line 69

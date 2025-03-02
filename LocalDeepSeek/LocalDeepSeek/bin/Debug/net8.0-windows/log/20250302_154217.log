@@ -1,0 +1,14 @@
+[2025-03-02 15:42:17.723 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 15:42:17.727 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 15:42:17.728 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 15:42:18.157 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 15:42:21.033 +09:00] [SqliteManagement.cs : 127] [ValidateUserLogin] test ユーザが見つかりませんでした
+[2025-03-02 15:42:23.301 +09:00] [SqliteManagement.cs : 74] [CreateUser] 新規ユーザ作成成功 UserId: 1 UserName: test
+[2025-03-02 15:42:26.252 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:42:28.847 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: 
+[2025-03-02 15:42:38.959 +09:00] [SqliteManagement.cs : 221] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-02 15:42:38.963 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 03:42:38, CreatedAt: 2025-03-02 15:42:38
+[2025-03-02 15:42:38.971 +09:00] [SqliteManagement.cs : 264] [InsertMessage] Messageの挿入成功
+[2025-03-02 15:42:41.423 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください, CreatedAt: 2025-03-02 15:42:38
+[2025-03-02 15:42:46.719 +09:00] [SqliteManagement.cs : 264] [InsertMessage] Messageの挿入成功
+[2025-03-02 15:42:50.468 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください, CreatedAt: 2025-03-02 15:42:38, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:42:46

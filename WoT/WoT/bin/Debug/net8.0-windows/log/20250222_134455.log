@@ -1,0 +1,2 @@
+[2025-02-22 13:44:56.640 +09:00] [PlayersApi.cs: 29] [Get] GETリクエストURL: https://api.worldoftanks.asia/wot/account/list/?application_id=0156f4fe1a465e6139a621f790046c60&search=metalmental
+[2025-02-22 13:44:57.509 +09:00] [MainWindow.xaml.cs: 37] [GetPlayersId] プレイヤーID: {"status":"ok","meta":{"count":1},"data":[{"nickname":"metalmental","account_id":2020388370}]}

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\LocalDeepSeek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D11BE32-7D06-447D-AF6C-CF2272C0DE7F}|LocalDeepSeek\\LocalDeepSeek.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\localdeepseek\\localdeepseek\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D11BE32-7D06-447D-AF6C-CF2272C0DE7F}|LocalDeepSeek\\LocalDeepSeek.csproj|solutionrelative:localdeepseek\\views\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 285,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "c27efbd0-ae9f-4c51-84eb-4657c0e79f2d",
+        "Display": 0,
+        "X": 1995,
+        "Y": 249,
+        "Width": 637,
+        "Height": 449,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\LocalDeepSeek\\LocalDeepSeek\\Views\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "LocalDeepSeek\\Views\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\LocalDeepSeek\\LocalDeepSeek\\Views\\MainWindow.xaml",
+              "RelativeToolTip": "LocalDeepSeek\\Views\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T00:08:51.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

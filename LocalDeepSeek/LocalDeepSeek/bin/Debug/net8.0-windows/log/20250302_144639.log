@@ -1,0 +1,47 @@
+[2025-03-02 14:46:39.340 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 14:46:39.355 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 14:46:39.369 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 14:46:39.727 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 14:46:43.553 +09:00] [SqliteManagement.cs : 116] [ValidateUserLogin] test ユーザが見つかりました
+[2025-03-02 14:46:43.563 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 14:46:43.570 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 02:11:00, CreatedAt: 2025-03-02 14:11:00, ChatHistoryId: 2, UserId: 1, Title: 2025/03/02 02:14:52, CreatedAt: 2025-03-02 14:14:52
+[2025-03-02 14:47:02.235 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:11:00, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:14:52, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: はい、日本語を理解することができます。
+
+何か私に聞いてください！😊, CreatedAt: 2025-03-02 14:14:59, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: ことわざを1行で1つ教えてください, CreatedAt: 2025-03-02 14:15:33, MessageId: 5, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 一石二鳥  
+, CreatedAt: 2025-03-02 14:15:35, MessageId: 6, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 14:15:43, MessageId: 7, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 😊 
+
+I need the text in order to help you!  
+, CreatedAt: 2025-03-02 14:15:50
+[2025-03-02 14:47:02.717 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 14:47:06.227 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:11:00, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:14:52, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: はい、日本語を理解することができます。
+
+何か私に聞いてください！😊, CreatedAt: 2025-03-02 14:14:59, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: ことわざを1行で1つ教えてください, CreatedAt: 2025-03-02 14:15:33, MessageId: 5, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 一石二鳥  
+, CreatedAt: 2025-03-02 14:15:35, MessageId: 6, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 14:15:43, MessageId: 7, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 😊 
+
+I need the text in order to help you!  
+, CreatedAt: 2025-03-02 14:15:50
+[2025-03-02 14:47:07.302 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 14:47:08.032 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:11:00, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:14:52, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: はい、日本語を理解することができます。
+
+何か私に聞いてください！😊, CreatedAt: 2025-03-02 14:14:59, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: ことわざを1行で1つ教えてください, CreatedAt: 2025-03-02 14:15:33, MessageId: 5, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 一石二鳥  
+, CreatedAt: 2025-03-02 14:15:35, MessageId: 6, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 14:15:43, MessageId: 7, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 😊 
+
+I need the text in order to help you!  
+, CreatedAt: 2025-03-02 14:15:50
+[2025-03-02 14:47:09.896 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 14:47:10.368 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:11:00, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:14:52, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: はい、日本語を理解することができます。
+
+何か私に聞いてください！😊, CreatedAt: 2025-03-02 14:14:59, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: ことわざを1行で1つ教えてください, CreatedAt: 2025-03-02 14:15:33, MessageId: 5, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 一石二鳥  
+, CreatedAt: 2025-03-02 14:15:35, MessageId: 6, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 14:15:43, MessageId: 7, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 😊 
+
+I need the text in order to help you!  
+, CreatedAt: 2025-03-02 14:15:50
+[2025-03-02 14:47:11.012 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 14:47:12.100 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:11:00, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 日本語は分かりますか, CreatedAt: 2025-03-02 14:14:52, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: はい、日本語を理解することができます。
+
+何か私に聞いてください！😊, CreatedAt: 2025-03-02 14:14:59, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: ことわざを1行で1つ教えてください, CreatedAt: 2025-03-02 14:15:33, MessageId: 5, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 一石二鳥  
+, CreatedAt: 2025-03-02 14:15:35, MessageId: 6, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 14:15:43, MessageId: 7, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 😊 
+
+I need the text in order to help you!  
+, CreatedAt: 2025-03-02 14:15:50
+[2025-03-02 14:47:13.271 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 

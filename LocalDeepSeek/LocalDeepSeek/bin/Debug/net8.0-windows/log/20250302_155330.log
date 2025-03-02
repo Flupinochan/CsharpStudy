@@ -1,0 +1,74 @@
+[2025-03-02 15:53:30.370 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 15:53:30.375 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 15:53:30.377 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 15:53:30.850 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 15:53:34.425 +09:00] [SqliteManagement.cs : 116] [ValidateUserLogin] test ユーザが見つかりました
+[2025-03-02 15:53:34.438 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:53:34.446 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 03:42:38, CreatedAt: 2025-03-02 15:42:38, ChatHistoryId: 2, UserId: 1, Title: 2025/03/02 03:43:13, CreatedAt: 2025-03-02 15:43:13, ChatHistoryId: 3, UserId: 1, Title: 2025/03/02 03:47:09, CreatedAt: 2025-03-02 15:47:09
+[2025-03-02 15:53:43.169 +09:00] [SqliteManagement.cs : 223] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-02 15:53:47.938 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 03:42:38, CreatedAt: 2025-03-02 15:42:38, ChatHistoryId: 2, UserId: 1, Title: 2025/03/02 03:43:13, CreatedAt: 2025-03-02 15:43:13, ChatHistoryId: 3, UserId: 1, Title: 2025/03/02 03:47:09, CreatedAt: 2025-03-02 15:47:09, ChatHistoryId: 4, UserId: 1, Title: 2025/03/02 03:53:43, CreatedAt: 2025-03-02 15:53:43
+[2025-03-02 15:53:49.955 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 15:53:50.384 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 5, ChatHistoryId: 4, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 15:53:49
+[2025-03-02 15:54:07.923 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 15:54:07.926 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 5, ChatHistoryId: 4, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 15:53:49, MessageId: 6, ChatHistoryId: 4, UserId: 1, IsHuman: AI, Content: Hello! 👋
+
+How can I help you with your test? 
+
+Do you want me to:
+
+* **Answer a specific question?**
+* **Generate some text for you to evaluate?**
+* **Perform a calculation?**
+* **Something else entirely?**
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 15:54:07
+[2025-03-02 15:54:32.947 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:32.954 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:33.412 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:33.414 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:33.847 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 5, ChatHistoryId: 4, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 15:53:49, MessageId: 6, ChatHistoryId: 4, UserId: 1, IsHuman: AI, Content: Hello! 👋
+
+How can I help you with your test? 
+
+Do you want me to:
+
+* **Answer a specific question?**
+* **Generate some text for you to evaluate?**
+* **Perform a calculation?**
+* **Something else entirely?**
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 15:54:07
+[2025-03-02 15:54:33.852 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 5, ChatHistoryId: 4, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 15:53:49, MessageId: 6, ChatHistoryId: 4, UserId: 1, IsHuman: AI, Content: Hello! 👋
+
+How can I help you with your test? 
+
+Do you want me to:
+
+* **Answer a specific question?**
+* **Generate some text for you to evaluate?**
+* **Perform a calculation?**
+* **Something else entirely?**
+
+
+Let me know what you have in mind! 😊  
+, CreatedAt: 2025-03-02 15:54:07
+[2025-03-02 15:54:34.452 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:34.455 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:34.825 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:34.827 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:35.136 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください, CreatedAt: 2025-03-02 15:42:38, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:42:46, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください。, CreatedAt: 2025-03-02 15:43:13, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:43:16
+[2025-03-02 15:54:35.139 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 1, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください, CreatedAt: 2025-03-02 15:42:38, MessageId: 2, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:42:46, MessageId: 3, ChatHistoryId: 1, UserId: 1, IsHuman: Human, Content: testです。一言回答してください。, CreatedAt: 2025-03-02 15:43:13, MessageId: 4, ChatHistoryId: 1, UserId: 1, IsHuman: AI, Content: 了解しました。, CreatedAt: 2025-03-02 15:43:16
+[2025-03-02 15:54:35.755 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:35.761 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:36.932 +09:00] [SqliteManagement.cs : 304] [DeleteChatHistory] ChatHistoryの削除件数: 1、Messageの削除件数: 0
+[2025-03-02 15:54:36.935 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 03:42:38, CreatedAt: 2025-03-02 15:42:38, ChatHistoryId: 3, UserId: 1, Title: 2025/03/02 03:47:09, CreatedAt: 2025-03-02 15:47:09, ChatHistoryId: 4, UserId: 1, Title: 2025/03/02 03:53:43, CreatedAt: 2025-03-02 15:53:43
+[2025-03-02 15:54:36.938 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:37.732 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:37.737 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 15:54:38.541 +09:00] [SqliteManagement.cs : 304] [DeleteChatHistory] ChatHistoryの削除件数: 1、Messageの削除件数: 0
+[2025-03-02 15:54:38.543 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 1, UserId: 1, Title: 2025/03/02 03:42:38, CreatedAt: 2025-03-02 15:42:38, ChatHistoryId: 4, UserId: 1, Title: 2025/03/02 03:53:43, CreatedAt: 2025-03-02 15:53:43
+[2025-03-02 15:54:38.546 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 

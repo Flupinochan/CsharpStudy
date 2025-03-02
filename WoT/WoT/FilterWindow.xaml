@@ -1,0 +1,109 @@
+﻿<Window x:Class="WoT.FilterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WoT"
+        mc:Ignorable="d"
+        Title="FilterWindow"
+        Height="400"
+        Width="280"
+        Style="{StaticResource CustomWindowStyle}">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <!-- {StaticResource key名} でStyleを参照する-->
+        <TextBlock x:Name="nameTextBlock"
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Text="Name"
+                   Style="{StaticResource FilterTextBlockStyle}"/>
+        <TextBlock x:Name="battleTextBlock"
+                   Grid.Row="1"
+                   Grid.Column="0"
+                   Text="戦闘数 (以上)"
+                   Style="{StaticResource FilterTextBlockStyle}"/>
+        <TextBlock x:Name="tierTextBlock"
+                   Grid.Row="2"
+                   Grid.Column="0"
+                   Text="Tier"
+                   Style="{StaticResource FilterTextBlockStyle}"/>
+        <TextBlock x:Name="nationTextBlock"
+                   Grid.Row="3"
+                   Grid.Column="0"
+                   Text="国"
+                   Style="{StaticResource FilterTextBlockStyle}"/>
+        <TextBlock x:Name="winRateTextBlock"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Text="勝率 (以上)"
+                   Style="{StaticResource FilterTextBlockStyle}"/>
+
+        <TextBlock x:Name="badgeTextBlock"
+                   Grid.Row="5"
+                   Grid.Column="0"
+                   Text="MoE"
+                   Style="{StaticResource FilterTextBlockStyle}"/>
+
+        <TextBox x:Name="nameTextBox"
+                 Grid.Row="0"
+                 Grid.Column="2"
+                 Style="{StaticResource FilterTextBoxStyle}"/>
+
+        <TextBox x:Name="battleTextBox"
+                 Grid.Row="1"
+                 Grid.Column="2"
+                 Style="{StaticResource FilterTextBoxStyle}"/>
+
+        <TextBox x:Name="tierTextBox"
+                 Grid.Row="2"
+                 Grid.Column="2"
+                 Style="{StaticResource FilterTextBoxStyle}"/>
+
+        <TextBox x:Name="nationTextBox"
+                 Grid.Row="3"
+                 Grid.Column="2"
+                 Style="{StaticResource FilterTextBoxStyle}"/>
+
+        <TextBox x:Name="winRateTextBox"
+                 Grid.Row="4"
+                 Grid.Column="2"
+                 Style="{StaticResource FilterTextBoxStyle}"/>
+
+        <TextBox x:Name="badgeTextBox"
+                 Grid.Row="5"
+                 Grid.Column="2"
+                 Style="{StaticResource FilterTextBoxStyle}"/>
+
+        <Button x:Name="okButton"
+                Content="OK"
+                Grid.Row="6"
+                Grid.Column="0"
+                HorizontalAlignment="Right"
+                Margin="0, 0, 14, 0"
+                Click="okButton_Click"/>
+
+        <Button x:Name="cancelButton"
+                Content="Cancel"
+                Grid.Row="6"
+                Grid.Column="2"
+                HorizontalAlignment="Left"
+                Margin="14, 0, 0, 0"
+                Click="cancelButton_Click"/>
+    </Grid>
+</Window>

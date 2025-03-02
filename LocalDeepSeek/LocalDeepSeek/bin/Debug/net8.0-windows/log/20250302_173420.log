@@ -1,0 +1,288 @@
+[2025-03-02 17:34:20.575 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 17:34:20.580 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 17:34:20.581 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 17:34:20.945 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 17:34:24.073 +09:00] [SqliteManagement.cs : 116] [ValidateUserLogin] test ユーザが見つかりました
+[2025-03-02 17:34:24.084 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:34:24.093 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 13, UserId: 1, Title: 2025/03/02 05:34:09, CreatedAt: 2025-03-02 17:34:09, ChatHistoryId: 10, UserId: 1, Title: 2025/03/02 05:31:07, CreatedAt: 2025-03-02 17:31:07, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 17:34:24.999 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 19, ChatHistoryId: 8, UserId: 1, IsHuman: Human, Content: こんにちは, CreatedAt: 2025-03-02 17:05:34, MessageId: 20, ChatHistoryId: 8, UserId: 1, IsHuman: AI, Content: こんにちは！😊
+
+何かお手伝いできることはありますか？, CreatedAt: 2025-03-02 17:05:44
+[2025-03-02 17:34:25.002 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 19, ChatHistoryId: 8, UserId: 1, IsHuman: Human, Content: こんにちは, CreatedAt: 2025-03-02 17:05:34, MessageId: 20, ChatHistoryId: 8, UserId: 1, IsHuman: AI, Content: こんにちは！😊
+
+何かお手伝いできることはありますか？, CreatedAt: 2025-03-02 17:05:44
+[2025-03-02 17:34:25.329 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 21, ChatHistoryId: 9, UserId: 1, IsHuman: Human, Content: 生成AIについて教えてください, CreatedAt: 2025-03-02 17:06:11, MessageId: 22, ChatHistoryId: 9, UserId: 1, IsHuman: AI, Content: ## 生成AIとは？
+
+生成AIは、**人間が作成したテキスト、画像、音声など様々なデータを学習し、それらを元に新しいコンテンツを生成する人工知能**です。 従来のAIのように特定のタスクを実行するのではなく、創造的な活動を行うことができます。
+
+### 例：
+
+* **テキスト:** 文章、詩、コード、ストーリー、会話
+* **画像:** 写真、イラスト、絵画、3Dモデル
+* **音声:** 歌詞、ナレーション、セリフ、音楽
+* **動画:** アニメーション、合成映像、短編映画
+
+### 生成AIの仕組み:
+
+生成AIは主に「**深層学習**」と呼ばれる技術を用いています。大量のデータを学習し、その中にあるパターンや関係性を理解することで、新しいデータを作成する能力を獲得します。
+
+主なモデルとしては以下のものがあります:
+
+* **GPT-3 (Generative Pre-trained Transformer 3):** テキスト生成に特化したモデルで、自然な文章を生成することが得意です。
+* **DALL-E 2:** 画像生成に特化したモデルで、テキストから画像を作成することができます。
+* **Stable Diffusion:** オープンソースの画像生成モデルで、幅広い用途で使用されています。
+
+### 生成AIの可能性:
+
+* **コンテンツ制作:** 文章作成、デザイン、音楽作曲など、様々なコンテンツを自動化できます。
+* **教育:** 個別指導、学習教材作成、インタラクティブな学習体験を提供できます。
+* **医療:** 診断支援、創薬、病状予測などに活用できます。
+* **エンターテイメント:** ゲームシナリオ、アニメーション、仮想現実コンテンツなど、新しいエンターテイメント体験を創造できます。
+
+### 生成AIの課題:
+
+* **バイアス:** 学習データに含まれる偏見が反映され、差別的な出力になる可能性があります。
+* **著作権:** 自動生成されたコンテンツの所有権や使用許諾に関する問題があります。
+* **誤情報拡散:** 不正確な情報を広める可能性があり、事実確認が必要です。
+* **倫理的な問題:** 生成AIの利用目的や責任、透明性など、様々な倫理的な課題が議論されています。
+
+
+生成AIは急速に進化しており、私たちの生活に大きな影響を与えていくことが期待されます。 しかしながら、その可能性と課題を理解し、適切な利用方法を検討していくことが重要です。, CreatedAt: 2025-03-02 17:07:24
+[2025-03-02 17:34:25.333 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 21, ChatHistoryId: 9, UserId: 1, IsHuman: Human, Content: 生成AIについて教えてください, CreatedAt: 2025-03-02 17:06:11, MessageId: 22, ChatHistoryId: 9, UserId: 1, IsHuman: AI, Content: ## 生成AIとは？
+
+生成AIは、**人間が作成したテキスト、画像、音声など様々なデータを学習し、それらを元に新しいコンテンツを生成する人工知能**です。 従来のAIのように特定のタスクを実行するのではなく、創造的な活動を行うことができます。
+
+### 例：
+
+* **テキスト:** 文章、詩、コード、ストーリー、会話
+* **画像:** 写真、イラスト、絵画、3Dモデル
+* **音声:** 歌詞、ナレーション、セリフ、音楽
+* **動画:** アニメーション、合成映像、短編映画
+
+### 生成AIの仕組み:
+
+生成AIは主に「**深層学習**」と呼ばれる技術を用いています。大量のデータを学習し、その中にあるパターンや関係性を理解することで、新しいデータを作成する能力を獲得します。
+
+主なモデルとしては以下のものがあります:
+
+* **GPT-3 (Generative Pre-trained Transformer 3):** テキスト生成に特化したモデルで、自然な文章を生成することが得意です。
+* **DALL-E 2:** 画像生成に特化したモデルで、テキストから画像を作成することができます。
+* **Stable Diffusion:** オープンソースの画像生成モデルで、幅広い用途で使用されています。
+
+### 生成AIの可能性:
+
+* **コンテンツ制作:** 文章作成、デザイン、音楽作曲など、様々なコンテンツを自動化できます。
+* **教育:** 個別指導、学習教材作成、インタラクティブな学習体験を提供できます。
+* **医療:** 診断支援、創薬、病状予測などに活用できます。
+* **エンターテイメント:** ゲームシナリオ、アニメーション、仮想現実コンテンツなど、新しいエンターテイメント体験を創造できます。
+
+### 生成AIの課題:
+
+* **バイアス:** 学習データに含まれる偏見が反映され、差別的な出力になる可能性があります。
+* **著作権:** 自動生成されたコンテンツの所有権や使用許諾に関する問題があります。
+* **誤情報拡散:** 不正確な情報を広める可能性があり、事実確認が必要です。
+* **倫理的な問題:** 生成AIの利用目的や責任、透明性など、様々な倫理的な課題が議論されています。
+
+
+生成AIは急速に進化しており、私たちの生活に大きな影響を与えていくことが期待されます。 しかしながら、その可能性と課題を理解し、適切な利用方法を検討していくことが重要です。, CreatedAt: 2025-03-02 17:07:24
+[2025-03-02 17:34:25.659 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 23, ChatHistoryId: 10, UserId: 1, IsHuman: Human, Content: 日本のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:31:23, MessageId: 24, ChatHistoryId: 10, UserId: 1, IsHuman: AI, Content: 焦らずに、じっくりと準備をすることが大切である。 **「井の中の蛙は、天の海を知らず」** 
+
+
+Let me know if you'd like to hear another one! 😄 
+, CreatedAt: 2025-03-02 17:31:47, MessageId: 25, ChatHistoryId: 10, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 17:32:04, MessageId: 26, ChatHistoryId: 10, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 
+
+I need the content to be able to translate it! 😊  
+, CreatedAt: 2025-03-02 17:32:09, MessageId: 27, ChatHistoryId: 10, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 17:32:25, MessageId: 28, ChatHistoryId: 10, UserId: 1, IsHuman: AI, Content: Hello! 👋 
+
+What would you like me to test? 🤔  
+
+For example, I can:
+
+* **Answer your questions:**  Ask me anything!
+* **Generate different creative text formats:** Poems, code, scripts, musical pieces, email, letters, etc. 
+* **Translate languages:** Tell me what you want translated.
+* **Summarize text:** Give me a piece of writing and I'll give you the gist.
+
+Let me know how I can help! 😊, CreatedAt: 2025-03-02 17:33:10
+[2025-03-02 17:34:25.663 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 23, ChatHistoryId: 10, UserId: 1, IsHuman: Human, Content: 日本のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:31:23, MessageId: 24, ChatHistoryId: 10, UserId: 1, IsHuman: AI, Content: 焦らずに、じっくりと準備をすることが大切である。 **「井の中の蛙は、天の海を知らず」** 
+
+
+Let me know if you'd like to hear another one! 😄 
+, CreatedAt: 2025-03-02 17:31:47, MessageId: 25, ChatHistoryId: 10, UserId: 1, IsHuman: Human, Content: 上記を英語にしてください, CreatedAt: 2025-03-02 17:32:04, MessageId: 26, ChatHistoryId: 10, UserId: 1, IsHuman: AI, Content: Please provide me with the text you would like me to translate into English. 
+
+I need the content to be able to translate it! 😊  
+, CreatedAt: 2025-03-02 17:32:09, MessageId: 27, ChatHistoryId: 10, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 17:32:25, MessageId: 28, ChatHistoryId: 10, UserId: 1, IsHuman: AI, Content: Hello! 👋 
+
+What would you like me to test? 🤔  
+
+For example, I can:
+
+* **Answer your questions:**  Ask me anything!
+* **Generate different creative text formats:** Poems, code, scripts, musical pieces, email, letters, etc. 
+* **Translate languages:** Tell me what you want translated.
+* **Summarize text:** Give me a piece of writing and I'll give you the gist.
+
+Let me know how I can help! 😊, CreatedAt: 2025-03-02 17:33:10
+[2025-03-02 17:34:26.001 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:34:26.006 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:34:26.665 +09:00] [SqliteManagement.cs : 304] [DeleteChatHistory] ChatHistoryの削除件数: 1、Messageの削除件数: 0
+[2025-03-02 17:34:26.668 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 10, UserId: 1, Title: 2025/03/02 05:31:07, CreatedAt: 2025-03-02 17:31:07, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 17:34:26.672 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:34:27.120 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 21, ChatHistoryId: 9, UserId: 1, IsHuman: Human, Content: 生成AIについて教えてください, CreatedAt: 2025-03-02 17:06:11, MessageId: 22, ChatHistoryId: 9, UserId: 1, IsHuman: AI, Content: ## 生成AIとは？
+
+生成AIは、**人間が作成したテキスト、画像、音声など様々なデータを学習し、それらを元に新しいコンテンツを生成する人工知能**です。 従来のAIのように特定のタスクを実行するのではなく、創造的な活動を行うことができます。
+
+### 例：
+
+* **テキスト:** 文章、詩、コード、ストーリー、会話
+* **画像:** 写真、イラスト、絵画、3Dモデル
+* **音声:** 歌詞、ナレーション、セリフ、音楽
+* **動画:** アニメーション、合成映像、短編映画
+
+### 生成AIの仕組み:
+
+生成AIは主に「**深層学習**」と呼ばれる技術を用いています。大量のデータを学習し、その中にあるパターンや関係性を理解することで、新しいデータを作成する能力を獲得します。
+
+主なモデルとしては以下のものがあります:
+
+* **GPT-3 (Generative Pre-trained Transformer 3):** テキスト生成に特化したモデルで、自然な文章を生成することが得意です。
+* **DALL-E 2:** 画像生成に特化したモデルで、テキストから画像を作成することができます。
+* **Stable Diffusion:** オープンソースの画像生成モデルで、幅広い用途で使用されています。
+
+### 生成AIの可能性:
+
+* **コンテンツ制作:** 文章作成、デザイン、音楽作曲など、様々なコンテンツを自動化できます。
+* **教育:** 個別指導、学習教材作成、インタラクティブな学習体験を提供できます。
+* **医療:** 診断支援、創薬、病状予測などに活用できます。
+* **エンターテイメント:** ゲームシナリオ、アニメーション、仮想現実コンテンツなど、新しいエンターテイメント体験を創造できます。
+
+### 生成AIの課題:
+
+* **バイアス:** 学習データに含まれる偏見が反映され、差別的な出力になる可能性があります。
+* **著作権:** 自動生成されたコンテンツの所有権や使用許諾に関する問題があります。
+* **誤情報拡散:** 不正確な情報を広める可能性があり、事実確認が必要です。
+* **倫理的な問題:** 生成AIの利用目的や責任、透明性など、様々な倫理的な課題が議論されています。
+
+
+生成AIは急速に進化しており、私たちの生活に大きな影響を与えていくことが期待されます。 しかしながら、その可能性と課題を理解し、適切な利用方法を検討していくことが重要です。, CreatedAt: 2025-03-02 17:07:24
+[2025-03-02 17:34:27.123 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 21, ChatHistoryId: 9, UserId: 1, IsHuman: Human, Content: 生成AIについて教えてください, CreatedAt: 2025-03-02 17:06:11, MessageId: 22, ChatHistoryId: 9, UserId: 1, IsHuman: AI, Content: ## 生成AIとは？
+
+生成AIは、**人間が作成したテキスト、画像、音声など様々なデータを学習し、それらを元に新しいコンテンツを生成する人工知能**です。 従来のAIのように特定のタスクを実行するのではなく、創造的な活動を行うことができます。
+
+### 例：
+
+* **テキスト:** 文章、詩、コード、ストーリー、会話
+* **画像:** 写真、イラスト、絵画、3Dモデル
+* **音声:** 歌詞、ナレーション、セリフ、音楽
+* **動画:** アニメーション、合成映像、短編映画
+
+### 生成AIの仕組み:
+
+生成AIは主に「**深層学習**」と呼ばれる技術を用いています。大量のデータを学習し、その中にあるパターンや関係性を理解することで、新しいデータを作成する能力を獲得します。
+
+主なモデルとしては以下のものがあります:
+
+* **GPT-3 (Generative Pre-trained Transformer 3):** テキスト生成に特化したモデルで、自然な文章を生成することが得意です。
+* **DALL-E 2:** 画像生成に特化したモデルで、テキストから画像を作成することができます。
+* **Stable Diffusion:** オープンソースの画像生成モデルで、幅広い用途で使用されています。
+
+### 生成AIの可能性:
+
+* **コンテンツ制作:** 文章作成、デザイン、音楽作曲など、様々なコンテンツを自動化できます。
+* **教育:** 個別指導、学習教材作成、インタラクティブな学習体験を提供できます。
+* **医療:** 診断支援、創薬、病状予測などに活用できます。
+* **エンターテイメント:** ゲームシナリオ、アニメーション、仮想現実コンテンツなど、新しいエンターテイメント体験を創造できます。
+
+### 生成AIの課題:
+
+* **バイアス:** 学習データに含まれる偏見が反映され、差別的な出力になる可能性があります。
+* **著作権:** 自動生成されたコンテンツの所有権や使用許諾に関する問題があります。
+* **誤情報拡散:** 不正確な情報を広める可能性があり、事実確認が必要です。
+* **倫理的な問題:** 生成AIの利用目的や責任、透明性など、様々な倫理的な課題が議論されています。
+
+
+生成AIは急速に進化しており、私たちの生活に大きな影響を与えていくことが期待されます。 しかしながら、その可能性と課題を理解し、適切な利用方法を検討していくことが重要です。, CreatedAt: 2025-03-02 17:07:24
+[2025-03-02 17:34:27.832 +09:00] [SqliteManagement.cs : 219] [InsertHistory] 作成されたChatHistoryId: 14
+[2025-03-02 17:34:27.838 +09:00] [SqliteManagement.cs : 223] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-02 17:34:27.841 +09:00] [SqliteManagement.cs : 182] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 14, UserId: 1, Title: 2025/03/02 05:34:27, CreatedAt: 2025-03-02 17:34:27, ChatHistoryId: 10, UserId: 1, Title: 2025/03/02 05:31:07, CreatedAt: 2025-03-02 17:31:07, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-02 17:34:27.845 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: 
+[2025-03-02 17:34:44.574 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:34:44.576 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44
+[2025-03-02 17:35:04.811 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:35:04.813 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04
+[2025-03-02 17:35:35.562 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:35:35.565 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35
+[2025-03-02 17:35:43.069 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:35:43.072 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35, MessageId: 32, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: Please provide the proverb you would like me to translate into English. 😊  
+
+For example, you could say:
+
+"Please translate the proverb 'Rome wasn't built in a day' into English." 
+
+
+I'm ready when you are! 
+, CreatedAt: 2025-03-02 17:35:43
+[2025-03-02 17:35:53.443 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:35:53.446 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35, MessageId: 32, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: Please provide the proverb you would like me to translate into English. 😊  
+
+For example, you could say:
+
+"Please translate the proverb 'Rome wasn't built in a day' into English." 
+
+
+I'm ready when you are! 
+, CreatedAt: 2025-03-02 17:35:43, MessageId: 33, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 今までのチャットを覚えていますか, CreatedAt: 2025-03-02 17:35:53
+[2025-03-02 17:36:00.417 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:36:00.420 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35, MessageId: 32, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: Please provide the proverb you would like me to translate into English. 😊  
+
+For example, you could say:
+
+"Please translate the proverb 'Rome wasn't built in a day' into English." 
+
+
+I'm ready when you are! 
+, CreatedAt: 2025-03-02 17:35:43, MessageId: 33, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 今までのチャットを覚えていますか, CreatedAt: 2025-03-02 17:35:53, MessageId: 34, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 私は以前の会話は記憶していません。各会話は独立して処理されますので、前の会話の内容を理解することはできません。
+
+新しい質問やタスクについて教えてください！喜んでお手伝いします。, CreatedAt: 2025-03-02 17:36:00
+[2025-03-02 17:36:38.341 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35, MessageId: 32, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: Please provide the proverb you would like me to translate into English. 😊  
+
+For example, you could say:
+
+"Please translate the proverb 'Rome wasn't built in a day' into English." 
+
+
+I'm ready when you are! 
+, CreatedAt: 2025-03-02 17:35:43, MessageId: 33, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 今までのチャットを覚えていますか, CreatedAt: 2025-03-02 17:35:53, MessageId: 34, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 私は以前の会話は記憶していません。各会話は独立して処理されますので、前の会話の内容を理解することはできません。
+
+新しい質問やタスクについて教えてください！喜んでお手伝いします。, CreatedAt: 2025-03-02 17:36:00
+[2025-03-02 17:36:38.347 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35, MessageId: 32, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: Please provide the proverb you would like me to translate into English. 😊  
+
+For example, you could say:
+
+"Please translate the proverb 'Rome wasn't built in a day' into English." 
+
+
+I'm ready when you are! 
+, CreatedAt: 2025-03-02 17:35:43, MessageId: 33, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 今までのチャットを覚えていますか, CreatedAt: 2025-03-02 17:35:53, MessageId: 34, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 私は以前の会話は記憶していません。各会話は独立して処理されますので、前の会話の内容を理解することはできません。
+
+新しい質問やタスクについて教えてください！喜んでお手伝いします。, CreatedAt: 2025-03-02 17:36:00
+[2025-03-02 17:36:41.398 +09:00] [SqliteManagement.cs : 266] [InsertMessage] Messageの挿入成功
+[2025-03-02 17:36:41.401 +09:00] [SqliteManagement.cs : 152] [GetMessageList] MessageのListを取得: MessageId: 29, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 日本語のことわざを1つ1行で教えてください, CreatedAt: 2025-03-02 17:34:44, MessageId: 30, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 一石二鳥。  
+, CreatedAt: 2025-03-02 17:35:04, MessageId: 31, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 上記ことわざを英語にしてください, CreatedAt: 2025-03-02 17:35:35, MessageId: 32, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: Please provide the proverb you would like me to translate into English. 😊  
+
+For example, you could say:
+
+"Please translate the proverb 'Rome wasn't built in a day' into English." 
+
+
+I'm ready when you are! 
+, CreatedAt: 2025-03-02 17:35:43, MessageId: 33, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: 今までのチャットを覚えていますか, CreatedAt: 2025-03-02 17:35:53, MessageId: 34, ChatHistoryId: 14, UserId: 1, IsHuman: AI, Content: 私は以前の会話は記憶していません。各会話は独立して処理されますので、前の会話の内容を理解することはできません。
+
+新しい質問やタスクについて教えてください！喜んでお手伝いします。, CreatedAt: 2025-03-02 17:36:00, MessageId: 35, ChatHistoryId: 14, UserId: 1, IsHuman: Human, Content: test, CreatedAt: 2025-03-02 17:36:41

@@ -1,0 +1,5 @@
+[2025-03-02 12:41:54.528 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-02 12:41:54.534 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-02 12:41:54.535 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: gemma2:9b
+[2025-03-02 12:41:54.892 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-02 12:42:15.367 +09:00] [SqliteManagement.cs : 120] [ValidateUserLogin] ユーザが見つかりませんでした: test
