@@ -1,0 +1,16 @@
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\bin\Debug\net8.0\EnvConfigTest.exe
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\bin\Debug\net8.0\env.json
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\bin\Debug\net8.0\EnvConfigTest.deps.json
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\bin\Debug\net8.0\EnvConfigTest.runtimeconfig.json
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\bin\Debug\net8.0\EnvConfigTest.dll
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\bin\Debug\net8.0\EnvConfigTest.pdb
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.AssemblyInfoInputs.cache
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.AssemblyInfo.cs
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.csproj.CoreCompileInputs.cache
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.sourcelink.json
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.dll
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\refint\EnvConfigTest.dll
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.pdb
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\EnvConfigTest.genruntimeconfig.cache
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\EnvConfigTest\EnvConfigTest\obj\Debug\net8.0\ref\EnvConfigTest.dll

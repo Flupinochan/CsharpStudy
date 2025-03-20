@@ -8,7 +8,6 @@
         Title="MainWindow"
         Height="1000"
         Width="1400"
-        ResizeMode="NoResize"
         Style="{StaticResource WindowStyle}">
 
     <Grid Margin="20">
@@ -100,7 +99,7 @@
                         <StackPanel HorizontalAlignment="Stretch"
                                     Width="Auto">
                             <TextBox Text="{Binding Content}"
-                                     Width="1050"
+                                     Width="Auto"
                                      TextWrapping="Wrap"
                                      FontSize="20">
                                 <TextBox.Style>
@@ -108,16 +107,16 @@
                                         <Style.Triggers>
                                             <!-- Human or AIによってUIを分岐 -->
                                             <DataTrigger Binding="{Binding IsHuman}" Value="1">
-                                                <Setter Property="Foreground" Value="SkyBlue"/>
+                                                <Setter Property="Foreground" Value="{StaticResource CustomBlueColor}"/>
                                                 <Setter Property="HorizontalAlignment" Value="Left"/>
                                                 <Setter Property="Margin" Value="0, 0, 20, 0"/>
                                                 <Setter Property="HorizontalContentAlignment" Value="Left"/>
                                             </DataTrigger>
                                             <DataTrigger Binding="{Binding IsHuman}" Value="0">
-                                                <Setter Property="Foreground" Value="LimeGreen"/>
+                                                <Setter Property="Foreground" Value="{StaticResource CustomGreenColor}"/>
                                                 <Setter Property="HorizontalAlignment" Value="Right"/>
                                                 <Setter Property="Margin" Value="20, 0, 0, 0"/>
-                                                <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                                                <Setter Property="HorizontalContentAlignment" Value="Left"/>
                                             </DataTrigger>
                                         </Style.Triggers>
                                     </Style>

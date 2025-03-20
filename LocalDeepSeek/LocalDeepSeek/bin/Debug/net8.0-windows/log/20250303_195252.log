@@ -1,0 +1,16 @@
+[2025-03-03 19:52:52.753 +09:00] [App.xaml.cs : 42] [.ctor] アプリケーション起動
+[2025-03-03 19:52:52.758 +09:00] [App.xaml.cs : 44] [.ctor] LOG_LEVEL: DEBUG
+[2025-03-03 19:52:52.759 +09:00] [App.xaml.cs : 44] [.ctor] MODEL_ID: deepseek-r1:8b
+[2025-03-03 19:52:53.101 +09:00] [SqliteManagement.cs : 35] [CreateTable] データベース作成成功
+[2025-03-03 19:52:56.004 +09:00] [SqliteManagement.cs : 117] [ValidateUserLogin] test ユーザ ユーザID: 1が見つかりました
+[2025-03-03 19:52:56.016 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: 
+[2025-03-03 19:52:56.024 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 28, UserId: 1, Title: 2025/03/03 07:51:07, CreatedAt: 2025-03-03 19:51:07, ChatHistoryId: 27, UserId: 1, Title: 2025/03/02 09:40:12, CreatedAt: 2025-03-02 21:40:12, ChatHistoryId: 26, UserId: 1, Title: 2025/03/02 09:36:55, CreatedAt: 2025-03-02 21:36:55, ChatHistoryId: 25, UserId: 1, Title: 2025/03/02 09:36:28, CreatedAt: 2025-03-02 21:36:28, ChatHistoryId: 23, UserId: 1, Title: 2025/03/02 09:30:55, CreatedAt: 2025-03-02 21:30:55, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-03 19:53:01.448 +09:00] [SqliteManagement.cs : 223] [InsertHistory] 作成されたChatHistoryId: 29
+[2025-03-03 19:53:01.453 +09:00] [SqliteManagement.cs : 227] [InsertHistory] ChatHistoryの挿入成功
+[2025-03-03 19:53:01.456 +09:00] [SqliteManagement.cs : 186] [GetChatHistoryList] ChatHistoryのListを取得: ChatHistoryId: 29, UserId: 1, Title: 2025/03/03 07:53:01, CreatedAt: 2025-03-03 19:53:01, ChatHistoryId: 28, UserId: 1, Title: 2025/03/03 07:51:07, CreatedAt: 2025-03-03 19:51:07, ChatHistoryId: 27, UserId: 1, Title: 2025/03/02 09:40:12, CreatedAt: 2025-03-02 21:40:12, ChatHistoryId: 26, UserId: 1, Title: 2025/03/02 09:36:55, CreatedAt: 2025-03-02 21:36:55, ChatHistoryId: 25, UserId: 1, Title: 2025/03/02 09:36:28, CreatedAt: 2025-03-02 21:36:28, ChatHistoryId: 23, UserId: 1, Title: 2025/03/02 09:30:55, CreatedAt: 2025-03-02 21:30:55, ChatHistoryId: 9, UserId: 1, Title: 2025/03/02 05:06:04, CreatedAt: 2025-03-02 17:06:04, ChatHistoryId: 8, UserId: 1, Title: 2025/03/02 05:05:27, CreatedAt: 2025-03-02 17:05:27
+[2025-03-03 19:53:01.467 +09:00] [SqliteManagement.cs : 262] [InsertMessage] Messageの挿入成功
+[2025-03-03 19:53:09.716 +09:00] [SqliteManagement.cs : 262] [InsertMessage] Messageの挿入成功
+[2025-03-03 19:53:09.719 +09:00] [SqliteManagement.cs : 153] [GetMessageList] MessageのListを取得: MessageId: 80, ChatHistoryId: 29, UserId: 1, IsHuman: Human, Content: こんにちは, CreatedAt: 2025-03-03 19:53:01, MessageId: 81, ChatHistoryId: 29, UserId: 1, IsHuman: AI, Content: <think>Alright, the user just said "こんにちは" which means "Hello" in Japanese. I should respond politely in Japanese to keep the conversation flowing smoothly.
+
+I'll use "こんにちは" again to greet them back and add a friendly " كيف يمكنني مساعدتك؟ " which means "How can I assist you?" That should make it welcoming for them to ask anything they need.
+</think>こんにちは！どうぞ、助けてください。, CreatedAt: 2025-03-03 19:53:01
