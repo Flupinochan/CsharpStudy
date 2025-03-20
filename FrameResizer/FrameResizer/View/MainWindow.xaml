@@ -14,26 +14,56 @@
         WindowStartupLocation="CenterScreen">
     <!-- WindowのStyleにMaterialDesignのスタイルを適用 -->
 
-    <ScrollViewer HorizontalScrollBarVisibility="Auto"
+    <materialDesign:DialogHost x:Name="FinishedDialog"
+                               VerticalAlignment="Stretch"
+                               HorizontalAlignment="Stretch"
+                               ApplyBlurBackground="True"
+                               BlurRadius="5"
+                               CloseOnClickAway="True">
+        <!-- ダイアログ -->
+        <materialDesign:DialogHost.DialogContent>
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0"
+                           Text="処理が完了しました"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"
+                           FontSize="16"
+                           Padding="0, 0, 0, 14"/>
+                <Button x:Name="CloseDialogButton"
+                    Grid.Row="5"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Content="OK"
+                    IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                    Style="{StaticResource MaterialDesignOutlinedButton}" Click="CloseDialogButton_Click"/>
+            </Grid>
+        </materialDesign:DialogHost.DialogContent>
+        
+        <!-- メインコンテンツ -->
+        <ScrollViewer HorizontalScrollBarVisibility="Auto"
                   VerticalScrollBarVisibility="Auto">
-        <Grid Margin="20">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-            </Grid.RowDefinitions>
+            <Grid Margin="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-            <Grid Grid.Row="0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
 
-                <Button x:Name="SelectFileButton"
+                    <Button x:Name="SelectFileButton"
                         Grid.Column="0"
                         VerticalAlignment="Top"
                         IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
@@ -41,9 +71,9 @@
                         ToolTip="MaterialDesignIconButton"
                         Click="SelectFileButton_Click">
                         <materialDesign:PackIcon Kind="FilePlusOutline"/>
-                </Button>
+                    </Button>
 
-                <Button x:Name="SelectFolderButton"
+                    <Button x:Name="SelectFolderButton"
                         Grid.Column="1"
                         VerticalAlignment="Top"
                         IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
@@ -51,28 +81,44 @@
                         ToolTip="MaterialDesignIconButton"
                         Click="SelectFolderButton_Click">
                         <materialDesign:PackIcon Kind="FolderPlusOutline"/>
-                </Button>
+                    </Button>
 
-                <Expander Grid.Column="2"
+                    <Expander Grid.Column="2"
                           HorizontalAlignment="Stretch"
                           Header="選択した画像ファイル">
-                    <ListBox x:Name="SelectedFileListBox"
+                        <ListBox x:Name="SelectedFileListBox"
                              IsEnabled="{Binding IsChecked, ElementName=EnableListBox}"
                              HorizontalAlignment="Stretch"
                              MaxHeight="164"
                              ScrollViewer.VerticalScrollBarVisibility="Auto"
                              ItemsSource="{Binding}">
-                        <ListBox.ItemContainerStyle>
-                            <Style TargetType="ListBoxItem" BasedOn="{StaticResource {x:Type ListBoxItem}}">
-                                <Setter Property="Margin" Value="15, 0, 0, 0"/>
-                            </Style>
-                        </ListBox.ItemContainerStyle>
-                    </ListBox>
-                </Expander>
-            </Grid>
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="ListBoxItem" BasedOn="{StaticResource {x:Type ListBoxItem}}">
+                                    <Setter Property="Margin" Value="15, 0, 0, 0"/>
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                        </ListBox>
+                    </Expander>
+                </Grid>
 
-            <TextBox x:Name="OutputFolderTextBox"
-                     Grid.Row="1"
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button x:Name="SelectOutputFolderButton"
+                        Grid.Column="0"
+                        Margin="0, 10, 0, 0"
+                        IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
+                        Style="{StaticResource MaterialDesignIconButton}"
+                        ToolTip="MaterialDesignIconButton"
+                        Click="SelectOutputFolderButton_Click">
+                        <materialDesign:PackIcon Kind="FolderPlusOutline"/>
+                    </Button>
+
+                    <TextBox x:Name="OutputFolderTextBox"
+                     Grid.Column="1"
                      Margin="15, 10, 0, 0"
                      VerticalAlignment="Center"
                      materialDesign:HintAssist.Hint="出力フォルダ ※デフォルトでは画像を上書きします"
@@ -80,72 +126,74 @@
                      materialDesign:TextFieldAssist.TextBoxViewMargin="0 10 0 0"
                      Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
 
-            <Grid Grid.Row="2"
-                  Margin="15, 28, 0, 0">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto"/>
-                </Grid.RowDefinitions>
+                </Grid>
 
-                <TextBlock Grid.Row="0"
+                <Grid Grid.Row="2"
+                  Margin="15, 28, 0, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0"
                            Padding="0, 0, 0, 10"
                            Text="選択した方を基準にリサイズします ※Zennでは最大Widthが708pxのようです"/>
 
-                <Grid Grid.Row="1" Margin="0, 0, 0, 10">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="1" Margin="0, 0, 0, 10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
-                    <RadioButton x:Name="WidthRadioButton"
+                        <RadioButton x:Name="WidthRadioButton"
                                  Grid.Column="0"
                                  Content="Width"
                                  Style="{StaticResource MaterialDesignRadioButton}"
                                  GroupName="WidthHeightGroup"
                                  Checked="WidthRadioButton_Checked"
                                  IsChecked="True"/>
-                    <materialDesign:DecimalUpDown x:Name="WidthDecimalUpDown"
+                        <materialDesign:DecimalUpDown x:Name="WidthDecimalUpDown"
                                                   Grid.Column="1"
                                                   ValueStep="1"
-                                                  Minimum="0"
+                                                  Minimum="1"
                                                   Margin="67, 3, 0, 0"
                                                   Value="708"/>
-                </Grid>
+                    </Grid>
 
-                <Grid Grid.Row="2">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Row="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
 
-                    <RadioButton x:Name="HeightRadioButton"
+                        <RadioButton x:Name="HeightRadioButton"
                                  Grid.Column="0"
                                  Content="Height"
                                  Style="{StaticResource MaterialDesignRadioButton}"
                                  GroupName="WidthHeightGroup"
                                  Checked="HeightRadioButton_Checked"/>
-                    <materialDesign:DecimalUpDown x:Name="HeightDecimalUpDown"
+                        <materialDesign:DecimalUpDown x:Name="HeightDecimalUpDown"
                                                   Grid.Column="1"
                                                   ValueStep="1"
-                                                  Minimum="0"
+                                                  Minimum="1"
                                                   Margin="62, 3, 0, 0"
                                                   Value="0"
                                                   IsEnabled="False"/>
+                    </Grid>
                 </Grid>
-            </Grid>
 
-            <Grid Grid.Row="3"
-                  Margin="15, 20, 0, 0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
+                <Grid Grid.Row="3"
+                  Margin="15, 24, 0, 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
 
-                <TextBlock Grid.Column="0"
+                    <TextBlock Grid.Column="0"
                            Padding="0, 5, 0, 0"
                            Text="枠線の色 (Hex)"/>
-                <TextBox x:Name="BorderColorTextBox"
+                    <TextBox x:Name="BorderColorTextBox"
                          Grid.Column="1"
                          Margin="36, 0, 0, 0"
                          Padding="0, 4, 0, 0"
@@ -153,38 +201,39 @@
                          materialDesign:HintAssist.FloatingScale="0.1"
                          materialDesign:TextFieldAssist.TextBoxViewMargin="0 0 0 4"
                          Style="{StaticResource MaterialDesignFloatingHintTextBox}"
-                         Text="#222222"/>
-            </Grid>
+                         Text="#444444"/>
+                </Grid>
 
-            <Grid Grid.Row="4"
-                  Margin="15, 20, 0, 0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="Auto"/>
-                </Grid.ColumnDefinitions>
-                
-                <TextBlock Grid.Column="0"
+                <Grid Grid.Row="4"
+                  Margin="15, 24, 0, 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock Grid.Column="0"
                            Padding="0, 5, 0, 0"
                            Text="枠線の太さ (px)"/>
-                <materialDesign:DecimalUpDown x:Name="BorderSizeDecimalUpDown"
+                    <materialDesign:DecimalUpDown x:Name="BorderSizeDecimalUpDown"
                                               Grid.Column="1"
-                                              ValueStep="0.1"
-                                              Minimum="0"
+                                              ValueStep="1"
+                                              Minimum="1"
                                               Margin="35, 0, 0, 0"
                                               Value="1"/>
-            </Grid>
+                </Grid>
 
-            <Button x:Name="SubmitButton"
+                <Button x:Name="ExecuteButton"
                     Grid.Row="5"
                     HorizontalAlignment="Right"
                     VerticalAlignment="Bottom"
                     Content="実行"
-                    materialDesign:ButtonProgressAssist.IsIndeterminate="True"
-                    materialDesign:ButtonProgressAssist.IsIndicatorVisible="True"
+                    materialDesign:ButtonProgressAssist.IsIndeterminate="False"
+                    materialDesign:ButtonProgressAssist.IsIndicatorVisible="False"
                     materialDesign:ButtonProgressAssist.Value="-1"
                     IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}"
-                    Style="{StaticResource MaterialDesignOutlinedButton}"/>
+                    Style="{StaticResource MaterialDesignOutlinedButton}" Click="ExecuteButton_Click"/>
 
-        </Grid>
-    </ScrollViewer>
+            </Grid>
+        </ScrollViewer>
+    </materialDesign:DialogHost>
 </Window>

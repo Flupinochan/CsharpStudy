@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\frameresizer\\frameresizer\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|solutionrelative:frameresizer\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\frameresizer\\frameresizer\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|solutionrelative:frameresizer\\view\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\frameresizer\\frameresizer\\utils\\customiseimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|solutionrelative:frameresizer\\utils\\customiseimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\frameresizer\\frameresizer\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|solutionrelative:frameresizer\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89AF7841-17B8-4E30-AAEC-8644D806E75D}|FrameResizer\\FrameResizer.csproj|c:\\users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\desktop\\github_localrepository\\csharpstudy\\frameresizer\\frameresizer\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 285,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\FrameResizer\\App.xaml",
               "RelativeDocumentMoniker": "FrameResizer\\App.xaml",
@@ -46,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\FrameResizer\\View\\MainWindow.xaml",
               "RelativeDocumentMoniker": "FrameResizer\\View\\MainWindow.xaml",
@@ -58,28 +54,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\FrameResizer\\View\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "FrameResizer\\View\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\FrameResizer\\View\\MainWindow.xaml.cs",
               "RelativeToolTip": "FrameResizer\\View\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwF0AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAAAIwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T00:55:18.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CustomiseImage.cs",
-              "DocumentMoniker": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\FrameResizer\\Utils\\CustomiseImage.cs",
-              "RelativeDocumentMoniker": "FrameResizer\\Utils\\CustomiseImage.cs",
-              "ToolTip": "C:\\Users\\\u5DDD\u8D8A\u3000\u9244\u90CE\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\FrameResizer\\FrameResizer\\Utils\\CustomiseImage.cs",
-              "RelativeToolTip": "FrameResizer\\Utils\\CustomiseImage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T02:57:26.26Z",
               "EditorCaption": ""
             }
           ]
