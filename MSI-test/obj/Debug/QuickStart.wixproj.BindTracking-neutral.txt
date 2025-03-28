@@ -1,0 +1,5 @@
+BuiltContentOutput	C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\cab1.cab
+BuiltPdbOutput	C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\QuickStart.wixpdb
+BuiltTargetOutput	C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\QuickStart.msi
+Input	example.txt
+Intermediate	C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\cab1.cab

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "B3MWxIi/RsY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\川越　鉄郎\\Desktop\\GitHub_LocalRepository\\CsharpStudy\\PollyTest\\PollyTest\\PollyTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\polly\\8.5.2\\polly.8.5.2.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\polly.core\\8.5.2\\polly.core.8.5.2.nupkg.sha512",
+    "C:\\Users\\川越　鉄郎\\.nuget\\packages\\polly.extensions\\8.5.2\\polly.extensions.8.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

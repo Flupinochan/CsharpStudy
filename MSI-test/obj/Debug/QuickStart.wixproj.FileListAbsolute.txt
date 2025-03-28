@@ -1,0 +1,8 @@
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\bin\Debug\QuickStart.msi
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\bin\Debug\cab1.cab
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\bin\Debug\QuickStart.wixpdb
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\QuickStart.wixproj.CoreCompileInputs.cache
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\cab1.cab
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\QuickStart.msi
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\QuickStart.wixpdb
+C:\Users\川越　鉄郎\Desktop\GitHub_LocalRepository\CsharpStudy\MSI-test\obj\Debug\QuickStart.wixproj.BindTracking-neutral.txt
