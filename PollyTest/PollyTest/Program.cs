@@ -25,12 +25,25 @@ class Program
         // 3. 例外発生前に、OnTimeout処理が実行される
         // 4. Timeout専用のCancellationTokenを内部(inner)に所有していて
         //    Timeoutが発生した場合処理をキャンセルし、処理が完了していなければ例外をスローさせる
-        TimeoutStrategyOptions timeoutStrategyOptions = new TimeoutStrategyOptions
+
+        // リクエスト(Retry)ごとのTimeout設定
+        TimeoutStrategyOptions innerTimeoutStrategyOptions = new TimeoutStrategyOptions
         {
             Timeout = TimeSpan.FromSeconds(5),
             OnTimeout = (OnTimeoutArguments onTimeoutArguments) =>
             {
-                Console.WriteLine("Timeoutが発生しました");
+                Console.WriteLine("リクエスト(Retry)で、Timeoutが発生しました");
+                return default;
+            }
+        };
+
+        // 処理全体のTimeout設定
+        TimeoutStrategyOptions outerTimeoutStrategyOptions = new TimeoutStrategyOptions
+        {
+            Timeout = TimeSpan.FromSeconds(60),
+            OnTimeout = (OnTimeoutArguments onTimeoutArguments) =>
+            {
+                Console.WriteLine("処理全体でTimeoutが発生しました");
                 return default;
             }
         };
@@ -46,7 +59,7 @@ class Program
             UseJitter = true,
             Delay = TimeSpan.FromSeconds(3),
             MaxDelay = TimeSpan.FromSeconds(20),
-            MaxRetryAttempts = 5,
+            MaxRetryAttempts = 10,
             OnRetry = (OnRetryArguments<HttpResponseMessage> onRetryArguments) =>
             {
                 Console.WriteLine($"{onRetryArguments.AttemptNumber + 1}回目のリトライを{onRetryArguments.RetryDelay}秒後に実行します");
@@ -146,9 +159,11 @@ class Program
 
         // .Addの順番は大事
         ResiliencePipeline<HttpResponseMessage> pipeline = new ResiliencePipelineBuilder<HttpResponseMessage>()
-            .AddFallback(fallbackStrategyOptions)
+            .AddFallback(fallbackStrategyOptions) // 処理全体(最終結果)のFallback
+            .AddTimeout(outerTimeoutStrategyOptions) // 処理全体のTimeout
             .AddRetry(retryStrategyOptions)
-            .AddTimeout(timeoutStrategyOptions)
+            .AddTimeout(innerTimeoutStrategyOptions) // リトライごとに適用されるTimeout
+            //.AddFallback(fallbackStrategyOptions) // リトライ(各処理)ごとに適用されるFallback
             .Build();
 
         HttpResponseMessage response = await pipeline.ExecuteAsync(async (CancellationToken innerToken) =>
@@ -157,7 +172,7 @@ class Program
             //httpResponseMessage = await httpClient.GetAsync(url);
 
             Random rand = new Random();
-            if(rand.Next(7) == 0)
+            if(rand.Next(20) == 0)
             {
                 // Timeout用のinnerTokenを渡すことで、HttpRequestにPollyのTimeoutが適用され
                 // Timeoutした際に、PollyのTimeoutがキャンセルされて例外が発生する
@@ -188,6 +203,7 @@ class Program
         Console.WriteLine("結果");
         Console.WriteLine($"レスポンス: {response.Content}");
         Console.WriteLine($"ステータスコード: {response.StatusCode}");
+
 
     }
 

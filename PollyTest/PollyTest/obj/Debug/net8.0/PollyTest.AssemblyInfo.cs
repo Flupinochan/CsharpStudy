@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PollyTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8406e0070ac8fcfecd1e289a74648c40f5c1e31")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d45a2f8b326c4e255ff5ef0a290c391b7cdae52")]
 [assembly: System.Reflection.AssemblyProductAttribute("PollyTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PollyTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
