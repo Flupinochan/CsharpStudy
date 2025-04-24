@@ -1,0 +1,2 @@
+DropDownStyleは、デフォルトでは、入力可能
+DropDownListにすることで、選択しかできなくなる

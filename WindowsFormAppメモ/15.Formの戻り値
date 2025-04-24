@@ -1,0 +1,5 @@
+// このFormを閉じる
+this.DialogResult = DialogResult.OK; // .ShowDialog()の返り値となる
+this.Close();
+
+DialogResult.OKやDialogResult.CancelなどでFormの戻り値をIF文で分岐処理が可能

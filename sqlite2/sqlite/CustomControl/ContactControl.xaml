@@ -1,0 +1,41 @@
+﻿<UserControl x:Class="sqlite.CustomControl.ContactControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:sqlite.CustomControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="90"
+             d:DesignWidth="300">
+    <Grid Background="#AAE5E5E5">
+        <StackPanel>
+            <!-- Listの要素(クラス)のバインド -->
+            <!-- クラスのNameフィールドにバインド (string, int, datetimなどもバインド可能) -->
+            <TextBlock x:Name="NameTextBlock"
+                       FontSize="20"
+                       FontWeight="Bold">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Style.Triggers>
+                            <!-- フィールドの値によってUIを分岐 -->
+                            <DataTrigger Binding="{Binding Name}" Value="nameTest">
+                                <Setter Property="Foreground" Value="Red"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding Name}" Value="test1">
+                                <Setter Property="Foreground" Value="Green"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+
+            <TextBlock x:Name="EmailTextBlock"
+                       FontSize="15"
+                       Foreground="DodgerBlue"/>
+
+            <TextBlock x:Name="PhoneTextBlock"
+                       FontSize="15"
+                       FontStyle="Italic"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

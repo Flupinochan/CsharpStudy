@@ -1,0 +1,51 @@
+﻿{
+    "Serilog": {
+        # ConsoleやFileなどのSinks拡張機能をインストールすることで、初めてログ出力が可能になる
+        # AWS CloudWatchやElasticSearchなど様々な出力先がある
+        "Using": [ "Serilog.Sinks.Console", "Serilog.Sinks.File" ],
+
+        # Serilogは、デフォルトで全ての(外部も含む)ライブラリのログを自動的に出力する
+        # Overrideでライブラリの名前空間を指定することで抑制可能
+        # 以下のようにすれば、自身で定義したlogger.Infoなどのログしか出力されなくなる
+        "MinimumLevel": {
+            "Default": "Debug",
+            "Override": {
+                "System": "Fatal",
+                "Microsoft": "Fatal",
+                "Polly": "Fatal",
+                "Serilog": "Fatal"
+            }
+
+        # ConsoleとFileへの出力設定
+        # outputTemplate と formatter はどちらかのみ指定可能
+
+        # Json出力したい場合
+        # Serilog.Formatting.Json.JsonFormatter (古い方だが、略称でないので分かりやすい)
+        # Serilog.Formatting.Compact.CompactJsonFormatter (新しい方で拡張機能でインストールすること)
+        },
+        "WriteTo": [
+            {
+                "Name": "Console",
+                "Args": {
+                    "outputTemplate": "[{Timestamp:yyyy-MM-dd HH:mm:ss.fff zzz} {Level:u3}] {Message:lj}{NewLine}{Exception}"
+                }
+            },
+            {
+                "Name": "File",
+                "Args": {
+                    "formatter": "Serilog.Formatting.Json.JsonFormatter, Serilog",
+                    か
+                    "formatter": "Serilog.Formatting.Compact.CompactJsonFormatter, Serilog.Formatting.Compact",
+                    
+                    "path": "logs/app.log",
+                    "rollingInterval": "Day",
+                    "retainedFileCountLimit": 7,
+                    "fileSizeLimitBytes": null
+                }
+            }
+        ],
+
+        # Properties ハードコーディングしてログ情報を固定で追加したい場合
+        # Enrich 動的にmessage以外にログ情報を追加したい場合
+    }
+}

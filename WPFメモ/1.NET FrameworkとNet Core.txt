@@ -1,0 +1,8 @@
+.NET Frameworkは、Windows Desktopアプリ用で、レガシーで開発は終了している
+
+.NET Coreは、新しいフレームワークで、マルチプラットフォーム(LinuxやMacOSにも対応)
+パッケージ化が可能で、アプリの使用に追加のインストールは不要
+AIやCloudとの連携も可能
+
+WPFでは.NET Frameworkと.NET Coreどちらも選択可能
+WPFにおける使い方は基本的に同じ

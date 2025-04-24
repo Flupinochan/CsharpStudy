@@ -1,0 +1,50 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Debug",
+            "System": "Error",
+            "Microsoft": "Error",
+            "NLog": "Information"
+        }
+    },
+    "NLog": {
+        "autoReload": true,
+        "throwConfigExceptions": true,
+        "internalLogLevel": "Information",
+        "internalLogFile": "${basedir}/internal/internal-nlog.txt",
+        "extensions": [
+            { "assembly": "NLog.Extensions.Logging" },
+            { "assembly": "NLog.Web.AspNetCore" }
+        ],
+        "variables": {
+            "test": "./test"
+        },
+        "time": {
+            "type": "AccurateUTC"
+        },
+        "targetDefaultWrapper": {
+            "type": "AutoFlushWrapper"
+        },
+        "targets": {
+            "all-file": {
+                "type": "File",
+                "fileName": "${basedir}/application/nlog-all-${shortdate}.log",
+                "layout": {
+                    "type": "SimpleLayout",
+                    "text": "[${longdate}] [${level:uppercase=true:format=Name}] [ファイル名: ${callsite-filename:includeSourcePath=False}] [関数名: ${callsite:captureStackTrace=true:className=false:includeNamespace=false:includeSourcePath=false:methodName=true}] [${callsite-linenumber}行目] [スレッドID: ${threadid}] ${message}"
+                },
+                "createDirs": true
+            }
+        },
+        "rules": [
+            {
+                "logger": "*",
+                "writeTo": "all-file"
+            },
+            {
+                "logger": "Microsoft.*",
+                "final": true
+            }
+        ]
+    }
+}

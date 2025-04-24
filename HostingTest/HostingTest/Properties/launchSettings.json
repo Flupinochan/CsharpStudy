@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HostingTest (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HostingTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

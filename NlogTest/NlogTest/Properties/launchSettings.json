@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "NlogTest (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "NlogTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
