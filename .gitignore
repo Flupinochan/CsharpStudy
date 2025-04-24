@@ -1,0 +1,83 @@
+## .NET Build
+bin/
+obj/
+[Ll]og/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vsp
+*.vspx
+*.psess
+*.pidb
+*.svclog
+*.pdb
+*.mdb
+*.opendb
+
+## Visual Studio temp files
+.vs/
+.vscode/
+*.cache
+*.dbmdl
+*.bak
+*.Backup
+*.tmp
+*.diff
+*.orig
+*.rej
+
+## ASP.NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Build Results
+*.dll
+*.exe
+
+## Rider (JetBrains)
+.idea/
+
+## Publish output
+publish/
+AppPackages/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.assets.json
+Package.lock.json
+
+## Logs
+*.log
+
+## Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+*.testsettings
+*.runsettings
+*.vsmdi
+*.ts
+
+## Entity Framework
+Migrations/
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## Others
+*.DS_Store
+*.swp
+*.scc
+Thumbs.db
+ehthumbs.db
